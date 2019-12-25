@@ -34,12 +34,11 @@
             </tr>
 
                  <tr>
-                     <td>${orderCart.cartCustomerId}</td>
-                     <td>${orderCart.cartBookName}</td>
-                     <td>${orderCart.cartBookSellPrice}</td>
-                     <td>${orderCart.cartBookCount}</td>
-                     <td>${orderCart.cartBookDiscount}</td>
-                     <td>${orderCart.cartBookAllprice}</td>
+                     <td>${orderDetail.detailBookName}</td>
+                     <td>${orderDetail.detailBookPrice}</td>
+                     <td>${orderDetail.detailBookAmount}</td>
+                     <td>${orderDetail.detailBookDiscount}</td>
+                     <td>${orderDetail.detailTotalMoney}</td>
                  </tr>
                  <tr>
                      <td>共有图书<span id="count"></span>本，合计<span id="total"></span>元</td>

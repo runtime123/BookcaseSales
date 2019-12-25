@@ -32,7 +32,7 @@
     <sql id="commonSelectSql"><!--通用查询sql-->
         select order_id, order_snid, order_customer_id,
             order_reciver, order_phone, order_addr, order_create_at,
-            order_pay_status,order_id, order_snid, order_customer_id,
+            order_pay_status,order_last_create_at,order_id, order_snid, order_customer_id,
             order_reciver, order_phone, order_addr, order_create_at,
             order_pay_status, detail_id, detail_order_id,
             detail_book_id, detail_book_name, detail_book_price,
@@ -71,16 +71,20 @@
         </select>
     <!--添加订单信息-->
     <insert id="insertOrder" >
-        insert into orders(order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status)
-        values(#{OrderSnid},#{OrderCustomerId},#{OrderReciver},#{OrderPhone},#{OrderAddr},#{OrderCreateAt},#{OrderPayStatus})
+        insert into orders(order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status.order_last_create_at)
+        values(#{OrderSnid},#{OrderCustomerId},#{OrderReciver},#{OrderPhone},#{OrderAddr},#{OrderCreateAt},#{OrderPayStatus},#{OrderLastCreateAt})
     </insert>
 
     <!--修改订单状态信息-->
     <update id="updateOrder">
         update orders
-        set order_pay_status = #{param2}
+        set order_pay_status = #{param2},order_last_create_at = #{param3}
         where order_id = #{param1}
     </update>
     
-
+    <!--获取要结算的订单id，根据要结算的书名及其状态-->
+    <select id="getSettlementOrderId" resultType="int">
+        select order_id from orders
+        where order_customer_id = #{OrderCustomerId} and order_pay_status = #{OrderPayStatus}
+     </select>
 </mapper>

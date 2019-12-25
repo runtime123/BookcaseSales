@@ -3,6 +3,7 @@ package com.service;
 import com.entity.Order;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.Date;
 import java.util.List;
 
 public interface OrderService {
@@ -20,5 +21,8 @@ public interface OrderService {
     //添加订单信息
     int insertOrder(Order order);
     //修改订单信息
-    int updateOrder(int OrderId,int OrderPayStatus);
+    int updateOrder(int OrderId, int OrderPayStatus, Date OrdreLastCreaetAt);
+    //获取要结算的订单ID
+    int getSettlementOrderId(int OrderCustomerId,int OrderPayStatus);
+
 }

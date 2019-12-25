@@ -10,15 +10,27 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 public class Order {
-    private Integer OrderId;//订单ID
-    private String OrderSnid;//订单编号
-    private Integer OrderCustomerId;//用户ID
-    private String OrderReciver;//收货人
-    private String OrderPhone;//收货人手机号码
-    private String OrderAddr;//收货地址
+    //订单ID
+    private Integer OrderId;
+    //订单编号
+    private String OrderSnid;
+    //用户ID
+    private Integer OrderCustomerId;
+    //收货人
+    private String OrderReciver;
+    //收货人手机号码
+    private String OrderPhone;
+    //收货地址
+    private String OrderAddr;
+
+    //订单创建时间
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
-    private Date OrderCreateAt;//订单创建时间
-    private Integer OrderPayStatus;//支付状态
+    private Date OrderCreateAt;
+    //支付状态
+    private Integer OrderPayStatus;
+    //最后一次修改时间
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
+    private Date OrderLastCreateAt;
     //订单细节信息
     private List<OrderDetail> orderDetails;
 
@@ -30,7 +42,7 @@ public class Order {
     public Order() {
     }
 
-    public Order(String orderSnid, Integer orderCustomerId, String orderReciver, String orderPhone, String orderAddr, Date orderCreateAt, Integer orderPayStatus) {
+    public Order(String orderSnid, Integer orderCustomerId, String orderReciver, String orderPhone, String orderAddr, Date orderCreateAt, Integer orderPayStatus, Date orderLastCreateAt) {
         OrderSnid = orderSnid;
         OrderCustomerId = orderCustomerId;
         OrderReciver = orderReciver;
@@ -38,9 +50,10 @@ public class Order {
         OrderAddr = orderAddr;
         OrderCreateAt = orderCreateAt;
         OrderPayStatus = orderPayStatus;
+        OrderLastCreateAt = orderLastCreateAt;
     }
 
-    public Order(Integer orderId, String orderSnid, Integer orderCustomerId, String orderReciver, String orderPhone, String orderAddr, Date orderCreateAt, Integer orderPayStatus) {
+    public Order(Integer orderId, String orderSnid, Integer orderCustomerId, String orderReciver, String orderPhone, String orderAddr, Date orderCreateAt, Integer orderPayStatus, Date orderLastCreateAt) {
         OrderId = orderId;
         OrderSnid = orderSnid;
         OrderCustomerId = orderCustomerId;
@@ -49,5 +62,6 @@ public class Order {
         OrderAddr = orderAddr;
         OrderCreateAt = orderCreateAt;
         OrderPayStatus = orderPayStatus;
+        OrderLastCreateAt = orderLastCreateAt;
     }
 }

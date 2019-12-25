@@ -3,6 +3,7 @@ package com.dao;
 import com.entity.Order;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.Date;
 import java.util.List;
 
 public interface OrderDao {
@@ -20,5 +21,8 @@ public interface OrderDao {
     //添加订单信息
     int insertOrder(Order order);
     //修改订单信息
-    int updateOrder(int OrderId,int OrderPayStatus);
+    int updateOrder(int OrderId, int OrderPayStatus, Date OrderLastCreateAt);
+
+    int getSettlementOrderId(int OrderCustomerId,int OrderPayStatus);
+
 }

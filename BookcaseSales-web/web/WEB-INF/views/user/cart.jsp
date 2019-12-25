@@ -35,8 +35,9 @@
         </tr>
         <c:forEach var="cart" items="${cart}">
             <tr>
-                <td><input type="checkbox" data-bookprice="${cart.cartBookAllprice}"
-                          data-bookcount="${cart.cartBookCount}" data-cartCustomerId="${cart.cartCustomerId}" data-cartBookName="${cart.cartBookName}"
+                <td><input type="checkbox" data-bookprice="${cart.cartBookAllprice}" data-cartBookDiscount="${cart.cartBookDiscount}"
+                          data-bookcount="${cart.cartBookCount}" data-cartCustomerId="${cart.cartCustomerId}"
+                           data-cartBookName="${cart.cartBookName}" data-cartBookSellPrice="${cart.cartBookSellPrice}"
                            class="cart-check"></td>
                 <td>${cart.cartCustomerId}</td>
                 <td class="cart-name">${cart.cartBookName}</td>
@@ -70,8 +71,6 @@
 </c:if>
 
 <script>
-
-
 
     //购物车购书数量+1
     function addCart1(){
@@ -157,7 +156,6 @@
         });
     }
 
-
     //得到购物车中的商品总价
     function getTotal() {
         $(".cart-check").click(function () {
@@ -195,15 +193,13 @@
             $.each($(":checkbox"),function (index,element) {
                 if (element.checked == true){//表示所有选中的复选框
                     var bookName = $(this).attr("data-cartBookName");
-                    alert("结算商品：" + bookName)
+                    console.log("书名：" + bookName );
                     $.ajax({
                         url:"orderSettlement",
                         data:{"cartBookName":bookName},
                         type:"POST",
-                        success:function (data) {
-                            if (data == "toSettlement"){
-                                window.location.href = "user/settlement";
-                            }
+                        success:function () {
+                            window.location.href = "settlement";
                         }
                     })
                 }

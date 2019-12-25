@@ -6,6 +6,7 @@ import com.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -48,7 +49,12 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public int updateOrder(int OrderId, int OrderPayStatus) {
-        return orderDao.updateOrder(OrderId, OrderPayStatus);
+    public int updateOrder(int OrderId, int OrderPayStatus, Date OrderLastCreateAt) {
+        return orderDao.updateOrder(OrderId, OrderPayStatus,OrderLastCreateAt);
+    }
+
+    @Override
+    public int getSettlementOrderId(int OrderCustomerId, int OrderPayStatus) {
+        return orderDao.getSettlementOrderId(OrderCustomerId, OrderPayStatus);
     }
 }

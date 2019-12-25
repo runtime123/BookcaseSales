@@ -8,7 +8,6 @@ import java.math.BigDecimal;
 public class OrderDetail {
     private Integer DetailId;//订单细节ID
     private Integer DetailOrderId;//订单ID
-    private Integer DetailBookId;//图书ID
     private String DetailBookName;//图书名称
     private BigDecimal DetailBookPrice;//图书单价
     private Integer DetailBookAmount;//图书数量
@@ -18,9 +17,8 @@ public class OrderDetail {
     public OrderDetail() {
     }
 
-    public OrderDetail(Integer detailOrderId, Integer detailBookId, String detailBookName, BigDecimal detailBookPrice, Integer detailBookAmount, Integer detailBookDiscount, BigDecimal detailTotalMoney) {
+    public OrderDetail(Integer detailOrderId, String detailBookName, BigDecimal detailBookPrice, Integer detailBookAmount, Integer detailBookDiscount, BigDecimal detailTotalMoney) {
         DetailOrderId = detailOrderId;
-        DetailBookId = detailBookId;
         DetailBookName = detailBookName;
         DetailBookPrice = detailBookPrice;
         DetailBookAmount = detailBookAmount;
@@ -28,10 +26,9 @@ public class OrderDetail {
         DetailTotalMoney = detailTotalMoney;
     }
 
-    public OrderDetail(Integer detailId, Integer detailOrderId, Integer detailBookId, String detailBookName, BigDecimal detailBookPrice, Integer detailBookAmount, Integer detailBookDiscount, BigDecimal detailTotalMoney) {
+    public OrderDetail(Integer detailId, Integer detailOrderId,String detailBookName, BigDecimal detailBookPrice, Integer detailBookAmount, Integer detailBookDiscount, BigDecimal detailTotalMoney) {
         DetailId = detailId;
         DetailOrderId = detailOrderId;
-        DetailBookId = detailBookId;
         DetailBookName = detailBookName;
         DetailBookPrice = detailBookPrice;
         DetailBookAmount = detailBookAmount;
