@@ -13,11 +13,13 @@ import com.service.OrderService;
 import com.util.OrderUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import javax.xml.soap.DetailEntry;
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
@@ -35,13 +37,13 @@ public class OrderController {
 
     //查询该用户的所有订单
     @RequestMapping("/orderList")
-    public String getOrderByCustomer(HttpServletRequest request){
+    public String getOrderByCustomer(HttpServletRequest request,Model model){
         HttpSession session = request.getSession();
         Customer customer = (Customer) session.getAttribute("customer1");
-        List<Order> orders = orderService.getOrderByCustomerId(customer.getCustomerId(),1,5);
+        List<Order> orders = orderService.getOrderByCustomerId(customer.getCustomerId());
         PageInfo pageInfo = new PageInfo(orders);
         System.out.println(pageInfo);
-        session.setAttribute("orders",pageInfo);
+        model.addAttribute("orders",pageInfo);
         return "user/orders";
     }
 
@@ -51,35 +53,47 @@ public class OrderController {
     }
 
 
-    //进入订单结算界面
+    /**
+    进入订单结算界面,此时生成一条未结算的订单并显示在结算界面
+     */
     @RequestMapping("/orderSettlement")
-    public String orderSettlement(@RequestParam("cartBookName") String cartBookName,
-                                  @RequestParam("cartBookSellPrice") BigDecimal cartBookSellPrice,
-                                  @RequestParam("cartBookCount") Integer cartBookCount,
-                                  @RequestParam("cartBookDiscount") Integer cartBookDiscount,
-                                  @RequestParam("cartBookAllPrice") BigDecimal cartBookAllPrice,
-                                  HttpServletRequest request){
-        //生成一个未支付的订单，及相关订单细节
+    public String orderSettlement(String cartBookName, HttpServletRequest request, Model model){
+        //System.out.println("===============" + cartBookName);//要购买的书名
+        //1、生成一个未支付的订单，及相关订单细节
+        //1.1、获取用户信息
         Customer customer = (Customer) request.getSession().getAttribute("customer1");
-        //添加一条订单信息，收货者信息默认为当前登录的用户
+        //获取要结算的购物车信息，根据用户编号及商品名称
+       Cart cart = cartService.querySettlementCart(customer.getCustomerId(),cartBookName);
+
+        /**
+         * 添加一条订单信息，收货者信息默认为当前登录的用户
+         */
         String orderSnid = OrderUtil.getOrderSnid();
-        Order order = new Order(orderSnid,customer.getCustomerId(),customer.getCustomerName(),customer.getCustomerPhone(),customer.getCustomerAddress(),new Date(),0,new Date());
-        orderService.insertOrder(order);
-        //获取已生成但未支付的订单信息，显示在结算界面，
-        int OrderId = orderService.getSettlementOrderId(customer.getCustomerId(),0);
-        //获取要结算的购物车信息
-        Cart cart = cartService.querySettlementCart(customer.getCustomerId(),cartBookName);
-        System.out.println(cart);
-        request.setAttribute("cartSettle",cart);
+        /**
+         * 生成订单对象
+         */
+        Order order1 = new Order(orderSnid,customer.getCustomerId(),customer.getCustomerName(),customer.getCustomerPhone(),customer.getCustomerAddress(),new Date(),0,new Date());
+        orderService.insertOrder(order1);//生成一条订单
         //添加一条订单细节信息
-        OrderDetail orderDetail = new OrderDetail(OrderId,cart.getCartCustomerId(),cart.getCartBookName(),cart.getCartBookSellPrice(),cart.getCartBookCount(),cart.getCartBookDiscount(),cart.getCartBookAllprice());
-        request.setAttribute("orderDetail",orderDetail);
-        orderDetailService.insertOrderDetail(orderDetail);
-        System.out.println(orderDetail);
+        Order order2 = orderService.getOrderByOrderSnid(orderSnid);
+        OrderDetail orderDetail = new OrderDetail(order2.getOrderId(),cart.getCartCustomerId(),cartBookName,cart.getCartBookSellPrice(),cart.getCartBookCount(),cart.getCartBookDiscount(),cart.getCartBookAllprice());
+        orderDetailService.insertOrderDetail(orderDetail);//生成一条订单细节信息
+
         return "user/settlement";
 
     }
 
+    //根据用户ID查询其订单细节信息
+    @RequestMapping("/getOrderDetailByCutomerId")
+    public String getOrderDetailByCutomerId(Model model,HttpServletRequest request){
+        Customer customer = (Customer) request.getSession().getAttribute("customer1");
+
+        List<OrderDetail> orderDetails = orderDetailService.getDetailOrderByCustomerId(customer.getCustomerId());
+        //request.setAttribute("od",orderDetails);
+        model.addAttribute("od",orderDetails);
+        System.out.println("++++++++" + orderDetails);
+        return "user/index-jsp/orderDetailList";
+    }
     @RequestMapping("/toPay")
     public String toPay(){
         return "user/pay";

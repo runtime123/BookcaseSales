@@ -22,6 +22,13 @@
         }
         #denglu{
             margin: auto;
+            border: 1px solid red;
+            width: 400px;
+            height: 300px;
+            text-align: center;
+            position: relative;
+            top: 100px;
+            background-color: snow;
         }
 
         input{
@@ -33,7 +40,7 @@
         button{
             width: 60px;
             height: 30px;
-            background-color: linen;
+            background-color: khaki;
         }
     </style>
 </head>
@@ -42,7 +49,7 @@
     <h1>登录</h1>
     <form id="form">
         账号：<input type="text" name="customerName" /><br><br>
-        密码：<input type="password" name="customerPwd" maxlength="6"/><br><br>
+        密码：<input type="password" name="customerPwd" maxlength="6"/><br><br><br>
         <button type="button" id="button">登 录</button>
     </form>
 

@@ -15,35 +15,32 @@
     <div>显示订单信息</div>
     <div>
         <table id="tb-order">
-            <tr>
+            <thead>
                 <td>订单ID</td>
                 <td>订单编号</td>
                 <td>客户ID</td>
-                <td>图书ID</td>
+                <!--<td>图书ID</td>
                 <td>图书名称</td>
                 <td>单价</td>
                 <td>数量</td>
                 <td>折扣</td>
-                <td>总价</td>
+                <td>总价</td>-->
                 <td>接受者</td>
                 <td>电话号码</td>
                 <td>地址</td>
                 <td>管理</td>
-            </tr>
-            <c:forEach items="${order.list}" var="orders">
+            </thead>
+            <c:forEach items="${orders.list}" var="o">
                 <tr>
-                    <td>${orders.orderId}</td>
-                    <td>${orders.orderSnid}</td>
-                    <td>${orders.orderCustomerId}</td>
-                    <td>${orders.detailBookId}</td>
-                    <td>${orders.detailBookName}</td>
-                    <td>${orders.detailBookPrice}</td>
-                    <td>${orders.detailBookAmount}</td>
-                    <td>${orders.detailBookDiscount}</td>
-                    <td>${orders.detailBookMoney}</td>
-                    <td>${orders.orderReciver}</td>
-                    <td>${orders.orderPhone}</td>
-                    <td>${orders.orderAddr}</td>
+                    <td>${o.orderId}</td>
+                    <td>${o.orderSnid}</td>
+                    <td>${o.orderCustomerId}</td>
+
+
+
+                    <td>${o.orderReciver}</td>
+                    <td>${o.orderPhone}</td>
+                    <td>${o.orderAddr}</td>
                     <td>
                         <a>订单结算</a>
                         <a>修改订单</a>
@@ -53,5 +50,17 @@
             </c:forEach>
         </table>
     </div>
+
+<script>
+    /**
+     * <!--<td>${o.orderDetails.detailBookId}</td>
+     <td>${o.orderDetails.detailBookName}</td>
+     <td>${o.orderDetails.detailBookPrice}</td>
+     <td>${o.orderDetails.detailBookAmount}</td>
+     <td>${o.orderDetails.detailBookDiscount}</td>
+     <td>${o.orderDetails.detailBookMoney}</td>-->
+     https://github.com/Thehickey/BookCityManagementSystem-parent/blob/master/BookCity-Web/web/WEB-INF/views/customer/order.jsp
+     */
+</script>
 </body>
 </html>

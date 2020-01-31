@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BookcaseSales-web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f98a3ac-bda9-497a-91f1-acfb3132381d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/BookcaseSales.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/面试题 (1).docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/面试题 (2).docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/user/OrderAndDetailServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/index-jsp/orderDetailList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/OrderDetailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/OrderDetailDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/orderDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/orderDetailMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/orderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/orderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/src/main/java/com/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/src/main/java/com/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/src/main/java/com/entity/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/src/main/java/com/entity/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/OrderDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/OrderDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/BookcaseSales-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/user/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/user/order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/login_and_regist/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/login_and_regist/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/index-jsp/fengyunbang.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/index-jsp/fengyunbang.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/orders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/orders.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/settlement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/settlement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/userIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/userIndex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BookcaseSalesDB@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BookcaseSalesDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BookcaseSalesDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookcasesalesdb: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BookcaseSalesDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookcasesalesdb: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="order_detail: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Gradle Kotlin DSL Settings" />
+        <option value="Kotlin File" />
+        <option value="Mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UPHBlvyalAknQuzdQsL7L8BsZS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="MyBatisLogPluginindexNum" value="4165" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CoffeeScript" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="D:/JavaWeb实例/BookTwo" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.service.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.controller.manager" />
+      <recent name="com.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\manager\user" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\test\java\com" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\main\resources\static\js" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\main\resources\static\css" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\main\resources\static" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\user\index-jsp" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\user" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\user\indexajax" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\main\resources\static\css" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\book" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.21">
+    <configuration name="CartServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookcaseSales-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.com.user" />
+      <option name="MAIN_CLASS_NAME" value="com.com.user.CartServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartServiceImplTest.querySettlementCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookcaseSales-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.com.user" />
+      <option name="MAIN_CLASS_NAME" value="com.com.user.CartServiceImplTest" />
+      <option name="METHOD_NAME" value="querySettlementCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceImplTest.delete" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="BookcaseSales-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.com.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.com.manager.CustomerServiceImplTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderAndDetailServiceImplTest.select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookcaseSales-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.com.user" />
+      <option name="MAIN_CLASS_NAME" value="com.com.user.OrderAndDetailServiceImplTest" />
+      <option name="METHOD_NAME" value="select" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderAndDetailServiceImplTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookcaseSales-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.com.user" />
+      <option name="MAIN_CLASS_NAME" value="com.com.user.OrderAndDetailServiceImplTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderAndDetailServiceImplTest.testOrderQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookcaseSales-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.com.user" />
+      <option name="MAIN_CLASS_NAME" value="com.com.user.OrderAndDetailServiceImplTest" />
+      <option name="METHOD_NAME" value="testOrderQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="BookcaseSales-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BookcaseSales" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1080" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49200" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BookcaseSales-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CustomerServiceImplTest.delete" />
+      <item itemvalue="JUnit.CartServiceImplTest" />
+      <item itemvalue="JUnit.CartServiceImplTest.querySettlementCart" />
+      <item itemvalue="JUnit.OrderAndDetailServiceImplTest.testInsert" />
+      <item itemvalue="JUnit.OrderAndDetailServiceImplTest.select" />
+      <item itemvalue="JUnit.OrderAndDetailServiceImplTest.testOrderQuery" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.21" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderAndDetailServiceImplTest.testOrderQuery" />
+        <item itemvalue="JUnit.OrderAndDetailServiceImplTest.testInsert" />
+        <item itemvalue="JUnit.OrderAndDetailServiceImplTest.select" />
+        <item itemvalue="JUnit.CartServiceImplTest.querySettlementCart" />
+        <item itemvalue="JUnit.CartServiceImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.18392581" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f98a3ac-bda9-497a-91f1-acfb3132381d" name="Default Changelist" comment="" />
+      <created>1575251178224</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575251178224</updated>
+      <workItem from="1575251186697" duration="743000" />
+      <workItem from="1575252041394" duration="13142000" />
+      <workItem from="1575285367691" duration="35194000" />
+      <workItem from="1575420865994" duration="6506000" />
+      <workItem from="1575427687825" duration="52924000" />
+      <workItem from="1575803266374" duration="9532000" />
+      <workItem from="1575850082547" duration="3838000" />
+      <workItem from="1575894318996" duration="2406000" />
+      <workItem from="1575941200844" duration="9396000" />
+      <workItem from="1575976361276" duration="7915000" />
+      <workItem from="1575984956610" duration="1555000" />
+      <workItem from="1576020761921" duration="50522000" />
+      <workItem from="1576197050258" duration="43882000" />
+      <workItem from="1576468830410" duration="3850000" />
+      <workItem from="1576494797327" duration="39705000" />
+      <workItem from="1576639692562" duration="23705000" />
+      <workItem from="1576719888733" duration="13372000" />
+      <workItem from="1576751693271" duration="79898000" />
+      <workItem from="1577024211819" duration="4858000" />
+      <workItem from="1577103097315" duration="3077000" />
+      <workItem from="1577176197959" duration="12339000" />
+      <workItem from="1577257947792" duration="1643000" />
+      <workItem from="1577261453903" duration="10000" />
+      <workItem from="1577321184794" duration="1900000" />
+      <workItem from="1577619296668" duration="5648000" />
+      <workItem from="1578484499132" duration="1094000" />
+      <workItem from="1578620935540" duration="7567000" />
+      <workItem from="1578912793345" duration="4001000" />
+      <workItem from="1579497541653" duration="320000" />
+      <workItem from="1579497939664" duration="9919000" />
+      <workItem from="1579590193389" duration="6669000" />
+      <workItem from="1579658736237" duration="12685000" />
+      <workItem from="1580180832984" duration="32771000" />
+      <workItem from="1580444156928" duration="899000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1577022462742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577022462742</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第二次提交">
+      <created>1577237574147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577237574147</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="第一次提交" />
+    <MESSAGE value="第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580360800850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580360800850" />
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1580363909732">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580363909732" />
+    <state x="363" y="94" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580445038979">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="94" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1580445038979" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1580366595153">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580366595153" />
+    <state width="1055" height="180" key="GridCell.Tab.0.bottom" timestamp="1580365497934">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580365497934" />
+    <state width="1055" height="180" key="GridCell.Tab.0.center" timestamp="1580365497934">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580365497934" />
+    <state width="1055" height="180" key="GridCell.Tab.0.left" timestamp="1580365497933">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580365497933" />
+    <state width="1055" height="180" key="GridCell.Tab.0.right" timestamp="1580365497934">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580365497934" />
+    <state width="1055" height="2" key="GridCell.Tab.1.bottom" timestamp="1580365497852">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="2" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
+    <state width="1055" height="2" key="GridCell.Tab.1.center" timestamp="1580365497852">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="2" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
+    <state width="1055" height="2" key="GridCell.Tab.1.left" timestamp="1580365497852">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="2" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
+    <state width="1055" height="2" key="GridCell.Tab.1.right" timestamp="1580365497852">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="2" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
+    <state width="1055" height="2" key="GridCell.Tab.2.bottom" timestamp="1580365497853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="2" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580365497853" />
+    <state width="1055" height="2" key="GridCell.Tab.2.center" timestamp="1580365497852">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="2" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
+    <state width="1055" height="2" key="GridCell.Tab.2.left" timestamp="1580365497852">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="2" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
+    <state width="1055" height="2" key="GridCell.Tab.2.right" timestamp="1580365497852">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="2" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
+    <state width="1055" height="74" key="GridCell.Tab.3.bottom" timestamp="1580263680374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="74" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580263680374" />
+    <state width="1055" height="74" key="GridCell.Tab.3.center" timestamp="1580263680374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="74" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1580263680374" />
+    <state width="1055" height="74" key="GridCell.Tab.3.left" timestamp="1580263680374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="74" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1580263680374" />
+    <state width="1055" height="74" key="GridCell.Tab.3.right" timestamp="1580263680374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="74" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1580263680374" />
+    <state width="1055" height="221" key="GridCell.Tab.7.bottom" timestamp="1579572147019">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="221" key="GridCell.Tab.7.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579572147019" />
+    <state width="1055" height="221" key="GridCell.Tab.7.center" timestamp="1579572147019">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="221" key="GridCell.Tab.7.center/0.0.1366.728@0.0.1366.728" timestamp="1579572147019" />
+    <state width="1055" height="221" key="GridCell.Tab.7.left" timestamp="1579572147019">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="221" key="GridCell.Tab.7.left/0.0.1366.728@0.0.1366.728" timestamp="1579572147019" />
+    <state width="1055" height="221" key="GridCell.Tab.7.right" timestamp="1579572147019">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="221" key="GridCell.Tab.7.right/0.0.1366.728@0.0.1366.728" timestamp="1579572147019" />
+    <state width="1055" height="353" key="GridCell.Tab.8.bottom" timestamp="1579570303861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="353" key="GridCell.Tab.8.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579570303861" />
+    <state width="1055" height="353" key="GridCell.Tab.8.center" timestamp="1579570303861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="353" key="GridCell.Tab.8.center/0.0.1366.728@0.0.1366.728" timestamp="1579570303861" />
+    <state width="1055" height="353" key="GridCell.Tab.8.left" timestamp="1579570303861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="353" key="GridCell.Tab.8.left/0.0.1366.728@0.0.1366.728" timestamp="1579570303861" />
+    <state width="1055" height="353" key="GridCell.Tab.8.right" timestamp="1579570303861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="353" key="GridCell.Tab.8.right/0.0.1366.728@0.0.1366.728" timestamp="1579570303861" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1580180688902">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580180688902" />
+    <state x="392" y="12" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1580364029242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="12" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1580364029242" />
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1580445454884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580445454884" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580444803791">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580444803791" />
+    <state x="57" y="0" key="new project wizard" timestamp="1578484764833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1578484764833" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1579661368488">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1579661368488" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580362942519">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580362942519" />
+  </component>
+</project>

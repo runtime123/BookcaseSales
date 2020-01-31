@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.CustomerDao">
+
+    <!--用户信息分页查询-->
+    <select id="getAllUserByPage" resultType="com.entity.Customer">
+        select customer_id, customer_name, customer_pwd, customer_phone, customer_address, customer_email, customer_type
+        from customer
+        where customer_type = #{customerType}
+        order by customer_id
+    </select>
+    <!--删除用户信息-->
+    <delete id="delete">
+        delete from customer where customer_id = #{customerId}
+    </delete>
+    <!--修改用户信息-->
+    <update id="update">
+        update customer
+        set
+            customer_name = #{customerName},
+            customer_pwd = #{customerPwd},
+            customer_phone = #{customerPhone},
+            customer_address = #{customerAddress},
+            customer_email = #{customerEmail},
+            customer_type = #{customerType}
+        where customer_id = #{customerId}
+    </update>
+
+    <select id="queryone" resultType="com.entity.Customer">
+        select customer_id, customer_name, customer_pwd, customer_phone, customer_address, customer_email, customer_type
+        from customer where customer_id = #{customerId}
+    </select>
+
+</mapper>

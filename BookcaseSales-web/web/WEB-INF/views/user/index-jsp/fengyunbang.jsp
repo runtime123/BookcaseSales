@@ -11,16 +11,16 @@
 
 
 
-    <span style="text-align: center;color: gold">图书热销榜</span>
+    <span style="text-align: center;color: gold; font-size: xx-large;">图书热销榜</span>
     <table id="fengyunbang-table" style="text-align: center">
         <tr>
             <td>序号</td>
             <td>书名</td>
             <td>销量</td>
         </tr>
-        <c:forEach var="bs" items="${bookInfoBySales}" >
+        <c:forEach var="bs" items="${bookInfoBySales}" varStatus="s">
             <tr>
-                <td></td>
+                <td><font style="color: #FF5722">${s.index}</font></td>
                 <td><a style="color: blue">${bs.bookName}</a></td>
                 <td>${bs.bookSales}</td>
             </tr>

@@ -27,20 +27,20 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public List<Order> getOrderByCustomerId(int OrderCustomerId, int pageNum, int pageSize) {
-        return orderDao.getOrderByCustomerId(OrderCustomerId, pageNum, pageSize);
+    public List<Order> getOrderByCustomerId(int OrderCustomerId) {
+        return orderDao.getOrderByCustomerId(OrderCustomerId);
     }
+
 
     @Override
     public List<Order> getOrderByStatus(int OrderPayStatus, int pageNum, int pageSize) {
-        return getOrderByStatus(OrderPayStatus, pageNum, pageSize);
+        return orderDao.getOrderByStatus(OrderPayStatus, pageNum, pageSize);
     }
 
 
-
     @Override
-    public List<Order> getOrderByOrderId(String OrderSnid) {
-        return orderDao.getOrderByOrderId(OrderSnid);
+    public Order getOrderByOrderSnid(String OrderSnid) {
+        return orderDao.getOrderByOrderSnid(OrderSnid);
     }
 
     @Override
@@ -53,8 +53,5 @@ public class OrderServiceImpl implements OrderService {
         return orderDao.updateOrder(OrderId, OrderPayStatus,OrderLastCreateAt);
     }
 
-    @Override
-    public int getSettlementOrderId(int OrderCustomerId, int OrderPayStatus) {
-        return orderDao.getSettlementOrderId(OrderCustomerId, OrderPayStatus);
-    }
+
 }

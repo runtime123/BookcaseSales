@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.OrderDetailDao">
+<!--order_detail 的CRUD-->
+
+
+    <select id="getAllOrderDetail" resultType="com.entity.OrderDetail">
+        select detail_id, detail_order_id, detail_book_name, detail_book_price, detail_book_amount, detail_book_discount, detail_total_money from order_detail
+        where detail_order_id = #{DetailOrderId}
+    </select>
+
+    <insert id="insertOrderDetail">
+        insert into order_detail(detail_order_id, detail_customer_id, detail_book_name, detail_book_price, detail_book_amount, detail_book_discount, detail_total_money)
+        values (#{DetailOrderId},#{DetailCustomerId},#{DetailBookName},#{DetailBookPrice},#{DetailBookAmount},#{DetailBookDiscount},#{DetailTotalMoney})
+    </insert>
+
+
+    <select id="getDetailOrderByCustomerId" resultType="com.entity.OrderDetail">
+        select detail_id, detail_order_id, detail_customer_id, detail_book_name, detail_book_price, detail_book_amount, detail_book_discount, detail_total_money from order_detail
+        where detail_customer_id = #{detailCustomerId}
+    </select>
+
+
+</mapper>

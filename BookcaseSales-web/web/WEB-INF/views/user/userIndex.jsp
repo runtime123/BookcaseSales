@@ -76,7 +76,6 @@
             margin: auto;
             float: left;
             text-align: center;
-            width: 900px;
             height: 299px;
         }
         .maindiv_right{

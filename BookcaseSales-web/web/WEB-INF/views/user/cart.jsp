@@ -107,7 +107,7 @@
             })
         })
     }
-
+    //删除某类商品
     function deleteCart(){
         $(".cart-delete").click(function(){
             var cartBookName = $(this).attr("data-cartBookName");
@@ -123,7 +123,7 @@
 
         })
     }
-
+    //清空购物车
     function deleteCartAll(){
         $.ajax({
             url:"/deleteAll",
@@ -135,7 +135,7 @@
             }
         })
     }
-
+    //计算购物车总价
     function total_load(){
         var total = 0;
         alert($(".Money").text());
@@ -186,6 +186,7 @@
         })
     }
 
+    //进入订单结算页面
     function toSettlement(){
         //获取要购买的商品信息
         $("#settlement").click(function(){
@@ -196,7 +197,7 @@
                     console.log("书名：" + bookName );
                     $.ajax({
                         url:"orderSettlement",
-                        data:{"cartBookName":bookName},
+                        data:{cartBookName:bookName},
                         type:"POST",
                         success:function () {
                             window.location.href = "settlement";
@@ -211,7 +212,7 @@
 
 
     $(function () {
-        //total_load();
+        total_load();
         addCart1();
         subCart1();
         deleteCart();

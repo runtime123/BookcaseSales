@@ -1,5 +1,0 @@
-BookId,BookType,BookName,BookAuthor,
-         BookPublisher,BookPublisherDate,BookCostPrice,
-          BookSellPrice,BookDiscount,
-          BookAmount,BookSales,
-          BookCover,BookIntroduce

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.OrderDao">
+
+
+    <resultMap id="orderDetailMap" type="com.entity.OrderDetail">
+        <id property="detailId" column="detail_id"/>
+        <result property="detailOrderId" column="detail_order_id"/>
+        <result property="detailCustomerId" column="detail_customer_id"/>
+        <result property="detailBookName" column="detail_book_name"/>
+        <result property="detailBookPrice" column="detail_book_price"/>
+        <result property="detailBookAmount" column="detail_book_amount"/>
+        <result property="detailBookDiscount" column="detail_book_discount"/>
+        <result property="detailTotalMoney" column="detail_total_money"/>
+    </resultMap>
+
+    <resultMap id="orderMap" type="com.entity.Order">
+        <id property="orderId" column="order_id"/>
+        <result property="orderSnid" column="order_snid"/>
+        <result property="orderCustomerId" column="order_customer_id"/>
+        <result property="orderReciver" column="order_reciver"/>
+        <result property="orderPhone" column="order_phone"/>
+        <result property="orderAddr" column="order_addr"/>
+        <result property="orderCreateAt" column="order_create_at"/>
+        <result property="orderPayStatus" column="order_pay_status"/>
+        <result property="orderLastCreateAt" column="order_last_creat_at"/>
+        <!--orderDetails-->
+        <collection resultMap="orderDetailMap" property="orderDetails"/>
+    </resultMap>
+
+    <sql id="commonSelectSql"><!--通用查询sql,orders与order_detail的联合多表查询-->
+       select o.order_id, order_snid, order_customer_id, order_reciver, order_phone,
+             order_addr, order_create_at, order_pay_status, order_last_create_at,
+             od.detail_id, detail_order_id, detail_customer_id, detail_book_name,
+              detail_book_price, detail_book_amount, detail_book_discount, detail_total_money
+            from orders o inner join order_detail od
+            on o.order_id = od.detail_order_id
+    </sql>
+
+    <!--分页获取所有订单-->
+    <select id="getAllOrderByPage" resultMap="orderMap">
+       <include refid="commonSelectSql"/>
+       order by o.order_id
+    </select>
+
+    <!--获取所有订单信息-->
+    <select id="getAllOrders" resultMap="orderMap">
+        <include refid="commonSelectSql"></include>
+    </select>
+    <!--根据用户编号获取订单信息-->
+        <select id="getOrderByCustomerId" resultMap="orderMap">
+            <include refid="commonSelectSql"/>
+            where order_customer_id = #{OrderCustomerId}
+        </select>
+    <!--根据订单状态分页获取订单信息-->
+        <select id="getOrderByStatus" resultMap="orderMap">
+            <include refid="commonSelectSql"/>
+            where order_pay_status = #{OrderPayStatus}
+            order by order_id
+        </select>
+    <!--根据订单编号获取订单信息-->
+        <select id="getOrderByOrderSnid" resultType="com.entity.Order">
+            select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status, order_last_create_at from orders
+            where order_snid = #{OrderSnid}
+        </select>
+    <!--添加订单信息-->
+    <insert id="insertOrder" >
+        insert into orders(order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status,order_last_create_at)
+        values(#{OrderSnid},#{OrderCustomerId},#{OrderReciver},#{OrderPhone},#{OrderAddr},#{OrderCreateAt},#{OrderPayStatus},#{OrderLastCreateAt})
+    </insert>
+
+    <!--修改订单状态信息-->
+    <update id="updateOrder">
+        update orders
+        set order_pay_status = #{param2},order_last_create_at = #{param3}
+        where order_id = #{param1}
+    </update>
+    
+    <!--获取要结算的订单id，根据要结算的书名及其状态-->
+   <!-- <select id="getSettlementOrderId" resultType="int">
+        select order_id from orders
+        where order_customer_id = #{OrderCustomerId} and order_pay_status = #{OrderPayStatus}
+     </select>-->
+
+
+</mapper>

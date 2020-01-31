@@ -8,7 +8,6 @@ import java.util.Date;
 import java.util.List;
 
 @Data
-@AllArgsConstructor
 public class Order {
     //订单ID
     private Integer OrderId;
@@ -39,6 +38,10 @@ public class Order {
         return OrderId;
     }
 
+    public List<OrderDetail> getOrderDetails() {
+        return orderDetails;
+    }
+
     public Order() {
     }
 
@@ -64,4 +67,18 @@ public class Order {
         OrderPayStatus = orderPayStatus;
         OrderLastCreateAt = orderLastCreateAt;
     }
+
+    public Order(Integer orderId, String orderSnid, Integer orderCustomerId, String orderReciver, String orderPhone, String orderAddr, Date orderCreateAt, Integer orderPayStatus, Date orderLastCreateAt, List<OrderDetail> orderDetails) {
+        OrderId = orderId;
+        OrderSnid = orderSnid;
+        OrderCustomerId = orderCustomerId;
+        OrderReciver = orderReciver;
+        OrderPhone = orderPhone;
+        OrderAddr = orderAddr;
+        OrderCreateAt = orderCreateAt;
+        OrderPayStatus = orderPayStatus;
+        OrderLastCreateAt = orderLastCreateAt;
+        this.orderDetails = orderDetails;
+    }
 }
+

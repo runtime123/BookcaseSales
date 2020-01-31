@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.CartDao">
+    
+    <!--<resultMap id="getCartMap" type="com.entity.Cart">
+        <id property="CartCustomerId" column="cart_customer_id"/>
+        <result property="CartBookName" column="cart_book_name"/>
+        <result property="CartBookSellPrice" column="cart_book_sell_price"/>
+        <result property="CartBookCount" column="cart_book_count"/>
+        <result property="CartBookDiscount" column="cart_book_discount"/>
+        <result property="CartBookAllprice" column="cart_book_allprice"/>
+    </resultMap>-->
+
+    <!--通过用户编号查询所属的购物车信息-->
+    <select id="getCartByCustomerId" resultType="com.entity.Cart">
+        select cart_customer_id, cart_book_name,
+         cart_book_sell_price, cart_book_count,
+          cart_book_discount, cart_book_allprice*cart_book_count*cart_book_discount/10 as cart_book_allprice
+           from cart where cart_customer_id = #{CartCustomerId}
+    </select>
+
+
+
+    <!--将商品信息加入购物车-->
+    <insert id="addCartNull" >
+        insert into cart(cart_customer_id, cart_book_name, cart_book_sell_price, cart_book_count, cart_book_discount, cart_book_allprice)
+        values (#{CartCustomerId},#{CartBookName},#{CartBookSellPrice},#{CartBookCount},#{CartBookDiscount},#{CartBookAllprice})
+    </insert>
+
+    <!--添加同类商品的数量-->
+    <update id="updateCountAdd">
+        update cart
+        set cart_book_count = #{param1} + cart_book_count
+        where cart_book_name = #{param2}
+    </update>
+
+    <!--减少同类商品的数量-->
+    <update id="updateCountSub">
+        update cart
+        set cart_book_count = cart_book_count - #{param1}
+        where cart_book_name = #{param2}
+    </update>
+
+    <!--删除某类商品-->
+    <delete id="deleteOne">
+        delete from cart
+        where cart_customer_id = #{param1} and cart_book_name = #{param2}
+    </delete>
+
+    <!--清空购物车-->
+    <delete id="deleteByCartCustomerId">
+        delete from cart
+        where cart_customer_id = #{CartCustomerId}
+    </delete>
+
+
+    <!--结算前通过用户编号和要结算的商品信息生成一个未支付的订单信息-->
+    <select id="querySettlementCart" resultType="com.entity.Cart">
+        select cart_customer_id, cart_book_name, cart_book_sell_price, cart_book_count, cart_book_discount, cart_book_allprice
+        from cart
+        where cart_customer_id = #{CartCustomerId} and cart_book_name = #{CartBookName}
+    </select>
+</mapper>

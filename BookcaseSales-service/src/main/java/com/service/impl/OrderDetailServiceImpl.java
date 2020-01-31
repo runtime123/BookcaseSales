@@ -23,4 +23,9 @@ public class OrderDetailServiceImpl implements OrderDetailService {
     public int insertOrderDetail(OrderDetail orderDetail) {
         return orderDetailDao.insertOrderDetail(orderDetail);
     }
+
+    @Override
+    public List<OrderDetail> getDetailOrderByCustomerId(int customerId) {
+        return orderDetailDao.getDetailOrderByCustomerId(customerId);
+    }
 }
