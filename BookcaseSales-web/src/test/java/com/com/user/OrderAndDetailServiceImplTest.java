@@ -57,5 +57,11 @@ public class OrderAndDetailServiceImplTest {
 
     }
 
-
+    //根据订单ID删除订单信息和订单细节信息
+    @Test
+    public void testDeleteOrderAndDetailOrder() {
+        int id = 72;
+        orderService.deleteOrderOneByOrderId(id);
+        orderDetailService.deleteDetailOrderOneByDetailOrderId(id);
+    }
 }

@@ -83,7 +83,7 @@ public class OrderController {
 
     }
 
-    //根据用户ID查询其订单细节信息
+    //根据用户ID查询其订单细节信息，以便于结算
     @RequestMapping("/getOrderDetailByCutomerId")
     public String getOrderDetailByCutomerId(Model model,HttpServletRequest request){
         Customer customer = (Customer) request.getSession().getAttribute("customer1");
@@ -92,11 +92,24 @@ public class OrderController {
         //request.setAttribute("od",orderDetails);
         model.addAttribute("od",orderDetails);
         System.out.println("++++++++" + orderDetails);
-        return "user/index-jsp/orderDetailList";
+        return "user/settlement";
     }
+
+    /**
+    进行订单扫码支付，点击扫码支付按钮时，传一个支付金额给toPay方法
+     */
     @RequestMapping("/toPay")
-    public String toPay(){
+    public String toPay(BigDecimal payMoney){
         return "user/pay";
+
+    }
+
+    //根据订单ID删除订单
+    @RequestMapping("/deleteOrderAndDetailOne")
+    public String deleteOrderAndDetail(@RequestParam(value = "orderId",required = false) int orderId){
+            orderService.deleteOrderOneByOrderId(orderId);
+            orderDetailService.deleteDetailOrderOneByDetailOrderId(orderId);
+            return "user/orders";
     }
 
 }

@@ -105,4 +105,17 @@ public class OrderDetail {
     }
 
 
+    @Override
+    public String toString() {
+        return "OrderDetail{" +
+                "DetailId=" + DetailId +
+                ", DetailOrderId=" + DetailOrderId +
+                ", DetailCustomerId=" + DetailCustomerId +
+                ", DetailBookName='" + DetailBookName + '\'' +
+                ", DetailBookPrice=" + DetailBookPrice +
+                ", DetailBookAmount=" + DetailBookAmount +
+                ", DetailBookDiscount=" + DetailBookDiscount +
+                ", DetailTotalMoney=" + DetailTotalMoney +
+                '}';
+    }
 }

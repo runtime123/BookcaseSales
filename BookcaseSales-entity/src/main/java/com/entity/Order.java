@@ -34,18 +34,12 @@ public class Order {
     private List<OrderDetail> orderDetails;
 
 
-    public Integer getOrderId() {
-        return OrderId;
-    }
-
-    public List<OrderDetail> getOrderDetails() {
-        return orderDetails;
-    }
 
     public Order() {
     }
 
-    public Order(String orderSnid, Integer orderCustomerId, String orderReciver, String orderPhone, String orderAddr, Date orderCreateAt, Integer orderPayStatus, Date orderLastCreateAt) {
+    public Order(Integer orderId, String orderSnid, Integer orderCustomerId, String orderReciver, String orderPhone, String orderAddr, Date orderCreateAt, Integer orderPayStatus, Date orderLastCreateAt) {
+        OrderId = orderId;
         OrderSnid = orderSnid;
         OrderCustomerId = orderCustomerId;
         OrderReciver = orderReciver;
@@ -56,8 +50,7 @@ public class Order {
         OrderLastCreateAt = orderLastCreateAt;
     }
 
-    public Order(Integer orderId, String orderSnid, Integer orderCustomerId, String orderReciver, String orderPhone, String orderAddr, Date orderCreateAt, Integer orderPayStatus, Date orderLastCreateAt) {
-        OrderId = orderId;
+    public Order(String orderSnid, Integer orderCustomerId, String orderReciver, String orderPhone, String orderAddr, Date orderCreateAt, Integer orderPayStatus, Date orderLastCreateAt) {
         OrderSnid = orderSnid;
         OrderCustomerId = orderCustomerId;
         OrderReciver = orderReciver;
@@ -79,6 +72,114 @@ public class Order {
         OrderPayStatus = orderPayStatus;
         OrderLastCreateAt = orderLastCreateAt;
         this.orderDetails = orderDetails;
+    }
+
+    public Order(String orderSnid, Integer orderCustomerId, String orderReciver, String orderPhone, String orderAddr, Date orderCreateAt, Integer orderPayStatus, Date orderLastCreateAt, List<OrderDetail> orderDetails) {
+        OrderSnid = orderSnid;
+        OrderCustomerId = orderCustomerId;
+        OrderReciver = orderReciver;
+        OrderPhone = orderPhone;
+        OrderAddr = orderAddr;
+        OrderCreateAt = orderCreateAt;
+        OrderPayStatus = orderPayStatus;
+        OrderLastCreateAt = orderLastCreateAt;
+        this.orderDetails = orderDetails;
+    }
+
+    public Integer getOrderId() {
+        return OrderId;
+    }
+
+    public void setOrderId(Integer orderId) {
+        OrderId = orderId;
+    }
+
+    public String getOrderSnid() {
+        return OrderSnid;
+    }
+
+    public void setOrderSnid(String orderSnid) {
+        OrderSnid = orderSnid;
+    }
+
+    public Integer getOrderCustomerId() {
+        return OrderCustomerId;
+    }
+
+    public void setOrderCustomerId(Integer orderCustomerId) {
+        OrderCustomerId = orderCustomerId;
+    }
+
+    public String getOrderReciver() {
+        return OrderReciver;
+    }
+
+    public void setOrderReciver(String orderReciver) {
+        OrderReciver = orderReciver;
+    }
+
+    public String getOrderPhone() {
+        return OrderPhone;
+    }
+
+    public void setOrderPhone(String orderPhone) {
+        OrderPhone = orderPhone;
+    }
+
+    public String getOrderAddr() {
+        return OrderAddr;
+    }
+
+    public void setOrderAddr(String orderAddr) {
+        OrderAddr = orderAddr;
+    }
+
+    public Date getOrderCreateAt() {
+        return OrderCreateAt;
+    }
+
+    public void setOrderCreateAt(Date orderCreateAt) {
+        OrderCreateAt = orderCreateAt;
+    }
+
+    public Integer getOrderPayStatus() {
+        return OrderPayStatus;
+    }
+
+    public void setOrderPayStatus(Integer orderPayStatus) {
+        OrderPayStatus = orderPayStatus;
+    }
+
+    public Date getOrderLastCreateAt() {
+        return OrderLastCreateAt;
+    }
+
+    public void setOrderLastCreateAt(Date orderLastCreateAt) {
+        OrderLastCreateAt = orderLastCreateAt;
+    }
+
+    public List<OrderDetail> getOrderDetails() {
+        return orderDetails;
+    }
+
+    public void setOrderDetails(List<OrderDetail> orderDetails) {
+        this.orderDetails = orderDetails;
+    }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "OrderId=" + OrderId +
+                ", OrderSnid='" + OrderSnid + '\'' +
+                ", OrderCustomerId=" + OrderCustomerId +
+                ", OrderReciver='" + OrderReciver + '\'' +
+                ", OrderPhone='" + OrderPhone + '\'' +
+                ", OrderAddr='" + OrderAddr + '\'' +
+                ", OrderCreateAt=" + OrderCreateAt +
+                ", OrderPayStatus=" + OrderPayStatus +
+                ", OrderLastCreateAt=" + OrderLastCreateAt +
+                ", orderDetails=" + orderDetails +
+                '}';
     }
 }
 

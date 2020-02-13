@@ -31,18 +31,17 @@
     </resultMap>
 
     <sql id="commonSelectSql"><!--通用查询sql,orders与order_detail的联合多表查询-->
-       select o.order_id, order_snid, order_customer_id, order_reciver, order_phone,
-             order_addr, order_create_at, order_pay_status, order_last_create_at,
-             od.detail_id, detail_order_id, detail_customer_id, detail_book_name,
-              detail_book_price, detail_book_amount, detail_book_discount, detail_total_money
-            from orders o inner join order_detail od
-            on o.order_id = od.detail_order_id
+       select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status, order_last_create_at,
+       detail_id, detail_order_id, detail_customer_id, detail_book_name, detail_book_price, detail_book_amount, detail_book_discount, detail_total_money
+        from orders o inner join order_detail od on o.order_id = od.detail_order_id
     </sql>
 
     <!--分页获取所有订单-->
     <select id="getAllOrderByPage" resultMap="orderMap">
-       <include refid="commonSelectSql"/>
-       order by o.order_id
+        select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status, order_last_create_at,
+        detail_id, detail_order_id, detail_customer_id, detail_book_name, detail_book_price, detail_book_amount, detail_book_discount, detail_total_money
+        from orders o inner join order_detail od on o.order_id = od.detail_order_id
+        order by o.order_id
     </select>
 
     <!--获取所有订单信息-->
@@ -77,12 +76,41 @@
         set order_pay_status = #{param2},order_last_create_at = #{param3}
         where order_id = #{param1}
     </update>
-    
+
+    <!--根据订单ID删除某条订单信息-->
+    <delete id="deleteOrderOneByOrderId">
+        delete from orders
+        where order_id = #{orderId}
+    </delete>
     <!--获取要结算的订单id，根据要结算的书名及其状态-->
    <!-- <select id="getSettlementOrderId" resultType="int">
         select order_id from orders
         where order_customer_id = #{OrderCustomerId} and order_pay_status = #{OrderPayStatus}
      </select>-->
+
+    <!--分页查询所有的订单-->
+    <select id="getAllOrderAndDetailBym" resultMap="orderMap">
+        <include refid="commonSelectSql"></include>
+        order by order_id
+    </select>
+
+    <!--修改订单信息-->
+    <update id="updateOrderAll">
+        update orders
+        set
+        order_snid = #{orderSnid},order_customer_id = #{orderCustomerId},
+        order_reciver = #{orderReciver},order_phone = #{orderPhone},
+        order_addr = #{orderAddr},order_create_at = #{orderCreateAt},
+        order_pay_status = #{orderPayStatus},order_last_create_at = #{OrderLastCreateAt}
+        where order_id = #{orderId}
+    </update>
+
+
+    <!--查询某条订单细节信息-->
+    <select id="getOrderByOrderIdm" resultMap="orderMap">
+        <include refid="commonSelectSql"></include>
+        where order_id = #{orderId}
+    </select>
 
 
 </mapper>

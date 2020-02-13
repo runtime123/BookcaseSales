@@ -25,9 +25,9 @@
         <td>类型</td>
         <td>用户管理</td>
     </tr>
-    <c:forEach items="${customerList}" var="customer">
+    <c:forEach items="${customerList.list}" var="customer">
         <tr>
-            <td>${customer.customerId}</td>
+            <td class="m-customer-id">${customer.customerId}</td>
             <td>${customer.customerName}</td>
             <td>${customer.customerPwd}</td>
             <td>${customer.customerPhone}</td>
@@ -35,8 +35,9 @@
             <td>${customer.customerEmail}</td>
             <td>${customer.customerType}</td>
             <td>
-                <a href="/customerManager/toUpdate">修改</a>
-                <a href="/customerManager/delete?customerId="+customer.customerId>删除</a>
+                <a class="m-custoemr-update" data-customerId="${customer.customerId}"
+                href="/m/customer/toUpdate?customerId=${customer.customerId}">修改</a>
+                <a class="m-customer-delete" data-customerId="${customer.customerId}">删除</a>
             </td>
         </tr>
     </c:forEach>
@@ -44,18 +45,49 @@
 
 
     <ul>
-        <li><a href="/customerManager/getAllByPage?pageNum=1">首页</a></li>
-        <li><a href="/customerManager/getAllByPage?pageNum=${customerList.prePage}">上一页</a> </li>
+        <li><a href="/m/customer/getAllUserByPage?pageNum=1">首页</a></li>
+        <li><a href="/m/customer/getAllUserByPage?pageNum=${customerList.prePage}">上一页</a> </li>
         <li>
             <c:forEach items="${customerList.navigatepageNums}" var="p">
-                <a href="/customerManager/getAllByPage?pageNum=${p}">${p}</a>
+                <a href="/m/customer/getAllUserByPage?pageNum=${p}">${p}</a>
             </c:forEach>
         </li>
-        <li><a href="/customerManager/getAllByPage?pageNum=${customerList.nextPage}">下一页</a></li>
-        <li><a href="customerManager/getAllByPage?pageNum=${customerList.pages}">尾页</a></li>
+        <li><a href="/m/customer/getAllUserByPage?pageNum=${customerList.nextPage}">下一页</a></li>
+        <li><a href="/m/customer/getAllUserByPage?pageNum=${customerList.pages}">尾页</a></li>
     </ul>
 
+
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+
 <script>
+    $(function () {
+        deleteCustomer();
+    })
+
+    //刷新界面
+    function refreshIndex(){
+        window.location.reload();
+    }
+
+    //删除用户信息
+    function deleteCustomer(){
+
+        $(".m-customer-delete").click(function (){
+            var customerId = $(this).attr("data-customerId");
+            alert(customerId);
+
+            $.ajax({
+                url:"/m/customer/delete?customerId=" + customerId,
+                method:"POST",
+                success:function () {
+                    refreshIndex();
+                }
+            })
+
+
+        });
+    }
+
 
 </script>
 </body>

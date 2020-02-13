@@ -28,7 +28,7 @@
             text-align: center;
             position: relative;
             top: 100px;
-            background-color: snow;
+            background-color: #f1f1f1;
         }
 
         input{
@@ -42,6 +42,8 @@
             height: 30px;
             background-color: khaki;
         }
+
+
     </style>
 </head>
 <body>
@@ -73,6 +75,7 @@
             dateType:"json",
             contentType:"application/json;charset=utf-8",
             success:function (data) {
+                alert("登陆成功");
                 alert(data)
                 if (data == "manager"){
                     //管理员登陆成功进入管理员首页

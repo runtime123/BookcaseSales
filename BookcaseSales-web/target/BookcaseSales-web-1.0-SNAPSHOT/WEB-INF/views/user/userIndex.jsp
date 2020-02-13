@@ -12,7 +12,9 @@
 <html>
 <head>
     <title>用户首页</title>
-
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- ZUI 标准版压缩后的 CSS 文件 -->
     <link rel="stylesheet" href="//cdn.bootcss.com/zui/1.9.1/css/zui.min.css">
     <!-- ZUI Javascript 依赖 jQuery -->
@@ -58,13 +60,15 @@
             float: left;
             width: 1360px;
             height: 300px;
-            border: 2px solid black;
+
             position: absolute;
             left: 3px;
             right: 3px;
         }
         .maindiv_left{
-            border: 1px solid red;
+            background-image: url("static/image/风云榜.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
             margin: auto;
             float: left;
             text-align: left;
@@ -72,14 +76,14 @@
             height: 299px;
         }
         .maindiv_center{
-            border: 1px solid red;
+
             margin: auto;
             float: left;
             text-align: center;
             height: 299px;
         }
         .maindiv_right{
-            border: 1px solid red;
+            background-image: url("static/image/云空.jpg");
             margin: auto;
             float: left;
             text-align: center;
@@ -94,7 +98,7 @@
             float: left;
             width: 1360px;
             height: 800px;
-            border: 2px solid blue;
+
             position: absolute;
 
             top: 410px;
@@ -107,7 +111,7 @@
         .icon-shopping-cart:hover{
             border: 1px solid red;
         }
-        <!--轮播相关样式-->
+        /*轮播相关样式*/
         #test10{
             border: 1px dashed red;
             width: 900px;
@@ -121,6 +125,15 @@
             width: 900px;
             height: 299px;
         }
+
+       .t-book-leixign tr td{
+            color: #0000FF;
+            font-size: 20px;
+            text-align: center;
+        }
+
+
+
 
 
     </style>
@@ -154,8 +167,8 @@
                 <li></li>
                 <li><a href="/orderList">我的订单</a></li>
                 <li><a id="displaycart" href="/getCart">购物车</a></li>
-                <li><a >售后评价</a></li>
                 <li><a >联系客服</a></li>
+                <li><a >系统通知</a></li>
             </ul>
         </nav>
     </div>
@@ -190,13 +203,13 @@
             <div class="maindiv_center">
                 <div class="layui-carousel" id="test10">
                     <div carousel-item="" class="img-carsouel-parent">
-                        <div><img class="img-carsouel" src="static/image/轮播1.jpg"></div>
-                        <div><img class="img-carsouel" src="static/image/轮播2.jpg"></div>
-                        <div><img class="img-carsouel" src="static/image/轮播3.jpg"></div>
-                        <div><img class="img-carsouel" src="static/image/轮播4.jpg"></div>
-                        <div><img class="img-carsouel" src="static/image/轮播5.jpg"></div>
-                        <div><img class="img-carsouel" src="static/image/轮播6.jpg"></div>
-                        <div><img class="img-carsouel" src="static/image/轮播7.jpg"></div>
+                        <div><img class="img-carsouel" src="static/image/l1.jpg"></div>
+                        <div><img class="img-carsouel" src="static/image/l2.jpg"></div>
+                        <div><img class="img-carsouel" src="static/image/l3.jpg"></div>
+                        <div><img class="img-carsouel" src="static/image/l4.jpg"></div>
+                        <div><img class="img-carsouel" src="static/image/l5.jpg"></div>
+                        <div><img class="img-carsouel" src="static/image/l6.jpg"></div>
+                        <!--<div><img class="img-carsouel" src="static/image/l7.jpg"></div>-->
                     </div>
                 </div>
             </div>
@@ -232,7 +245,7 @@
                 elem: '#test10'
                 ,width: '900px'
                 ,height: '299px'
-                ,interval: 1000
+                ,interval: 2000
             });
 
             //其它示例

@@ -20,7 +20,9 @@
 <c:if test="${cart == null}">
     穷鬼，你的购物车为空，滚一边去。
 </c:if>
-
+<div>
+    <input type="button" onclick="refreshLocal()" value="☯">
+</div>
 <c:if test="${cart != null}">
     <table>
         <tr>
@@ -59,7 +61,7 @@
 
     <div>
         <a href="/deleteAll">清空购物车</a>
-        <a id="settlement" style="color: blue">结算</a><!--点击此键进入一个订单结算界面，
+        <a id="settlement" style="color: blue" >结算</a><!--点击此键进入一个订单结算界面，
 
 
         在订单界面里有按键 《修改订单》《取消订单》《订单支付》，可以在这里面设置收获用户的信息，可以通过修改订单进行订单信息的更改，
@@ -72,6 +74,11 @@
 
 <script>
 
+    //刷新本窗口
+    function refreshLocal(){
+        alert("刷新本页面");
+        window.location.reload();
+    }
     //购物车购书数量+1
     function addCart1(){
         $(".cart-add").click(function(){
@@ -114,10 +121,8 @@
             $.ajax({
                 url:"/deleteOne?CartBookName="+cartBookName,
                 type:"POST",
-                success:function(url){
-                    if (url == "user/cart"){
-                        window.location.href = "getCart";
-                    }
+                success:function(){//不知是什么原因，此处没有运行，可能是url这个字是关键词，导致此处受到影响
+                    refreshLocal();
                 }
             })
 
@@ -138,7 +143,6 @@
     //计算购物车总价
     function total_load(){
         var total = 0;
-        alert($(".Money").text());
         $("#total").text(total)
     }
     //全选
@@ -200,7 +204,8 @@
                         data:{cartBookName:bookName},
                         type:"POST",
                         success:function () {
-                            window.location.href = "settlement";
+                            //window.location.href = "settlement";
+                            window.location.href = "getOrderDetailByCutomerId";
                         }
                     })
                 }
@@ -208,7 +213,6 @@
 
         });
     }
-
 
 
     $(function () {

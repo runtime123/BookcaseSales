@@ -1,5 +1,6 @@
 package com.service;
 
+import com.entity.Customer;
 import com.entity.Order;
 import org.apache.ibatis.annotations.Param;
 
@@ -22,5 +23,14 @@ public interface OrderService {
     int insertOrder(Order order);
     //修改订单信息
     int updateOrder(int OrderId, int OrderPayStatus, Date OrdreLastCreaetAt);
+   //根据订单ID删除订单
+    int deleteOrderOneByOrderId(int orderId);
 
+    //分页查询所有订单信息
+    List<Order> getAllOrderAndDetailBym(@Param("pageNum") int pageNum, @Param("pageSize") int pageSize);
+
+    //修改订单信息
+    int updateOrderAll(Order order);
+
+    Order getOrderByOrderIdm(int orderId);
 }

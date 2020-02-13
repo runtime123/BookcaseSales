@@ -10,32 +10,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f98a3ac-bda9-497a-91f1-acfb3132381d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BookcaseSales.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/面试题 (1).docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/面试题 (2).docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/user/OrderAndDetailServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/index-jsp/orderDetailList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/QQ截图20200208095738.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/l1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/l2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/l3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/l4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/l5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/l6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/lunbo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/lunbo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/lunbo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/lunbo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/lunbo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/lunbo6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/lunbo7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/刷新.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/风云榜.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/manager/OrderAndDetailServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/manager/order/orderAndDetailManager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/manager/order/updateOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/manager/order/updateOrderAndDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/kefu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/notifaction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/CustomerDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/OrderDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/OrderDetailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/OrderDetailDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/customerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/customerMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/orderDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/orderDetailMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/orderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/orderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/com/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/com/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/com/dao/OrderDetailDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/com/dao/OrderDetailDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/mappers/customerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/mappers/customerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/mappers/orderDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/mappers/orderDetailMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/mappers/orderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/mappers/orderMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/src/main/java/com/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/src/main/java/com/entity/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/src/main/java/com/entity/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/src/main/java/com/entity/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/target/classes/com/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/target/classes/com/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/target/classes/com/entity/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/target/classes/com/entity/OrderDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/OrderDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/OrderDetailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/BookcaseSales-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/OrderDetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/OrderDetailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/impl/OrderDetailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/impl/OrderDetailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/manager/CustomerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/manager/CustomerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/manager/OrderManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/manager/OrderManagerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/user/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/user/order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/面试题 (1).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/面试题 (2).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/面试题.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/manager/CustomerServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/manager/CustomerServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/user/OrderAndDetailServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/user/OrderAndDetailServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/manager/CustomerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/manager/CustomerManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/manager/OrderManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/manager/OrderManagerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/user/order/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/user/order/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/面试题 (1).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/面试题 (2).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/面试题.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-entity-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/login_and_regist/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/login_and_regist/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/login_and_regist/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/login_and_regist/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/manager/managerIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/manager/managerIndex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/manager/user/customerManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/manager/user/customerManager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/manager/user/customerUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/manager/user/customerUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/fengyunbang.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/fengyunbang.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/leixing.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/leixing.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/orderDetailList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/orders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/orders.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/settlement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/settlement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/userIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/userIndex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/manager/CustomerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/manager/CustomerManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/manager/OrderManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/manager/OrderManagerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/user/order/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/user/order/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/classes/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/面试题 (1).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/面试题 (2).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/面试题.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/com/com/manager/CustomerServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/com/com/manager/CustomerServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/com/com/user/OrderAndDetailServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/com/com/user/OrderAndDetailServiceImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/login_and_regist/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/login_and_regist/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/login_and_regist/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/login_and_regist/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/manager/managerIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/manager/managerIndex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/manager/user/customerManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/manager/user/customerManager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/manager/user/customerUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/manager/user/customerUpdate.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/cart.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/index-jsp/fengyunbang.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/index-jsp/fengyunbang.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/index-jsp/leixing.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/index-jsp/leixing.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/index-jsp/orderDetailList.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/orders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/orders.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/settlement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/settlement.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/userIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/userIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,15 +142,11 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="bookcasesalesdb: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="BookcaseSalesDB@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bookcasesalesdb: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="order_detail: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BookcaseSales" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,7 +199,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="MyBatisLogPluginindexNum" value="4165" />
+    <property name="MyBatisLogPluginindexNum" value="7405" />
     <property name="MyBatisLogPluginparameters" value="Parameters:" />
     <property name="MyBatisLogPluginpreparing" value="Preparing:" />
     <property name="MyBatisLogPluginrunning" value="true" />
@@ -141,7 +210,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CoffeeScript" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="D:/JavaWeb实例/BookTwo" />
+    <property name="last_opened_file_path" value="D:/Spring/springBoot/spring-boot-first-helloboot/spring-boot-first-helloboot" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -158,6 +227,16 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.service.impl" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\manager" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\user\index-jsp" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\user" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\user\indexajax" />
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\main\resources\static\css" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.controller.manager" />
       <recent name="com.service" />
@@ -169,49 +248,8 @@
       <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\main\resources\static\css" />
       <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\main\resources\static" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\user\index-jsp" />
-      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\user" />
-      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\user\indexajax" />
-      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\main\resources\static\css" />
-      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\book" />
-    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.21">
-    <configuration name="CartServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BookcaseSales-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.com.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.com.user" />
-      <option name="MAIN_CLASS_NAME" value="com.com.user.CartServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CartServiceImplTest.querySettlementCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BookcaseSales-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.com.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.com.user" />
-      <option name="MAIN_CLASS_NAME" value="com.com.user.CartServiceImplTest" />
-      <option name="METHOD_NAME" value="querySettlementCart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CustomerServiceImplTest.delete" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="BookcaseSales-web" />
       <extension name="coverage">
@@ -228,49 +266,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderAndDetailServiceImplTest.select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerServiceImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BookcaseSales-web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.com.user.*" />
+          <option name="PATTERN" value="com.com.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.com.user" />
-      <option name="MAIN_CLASS_NAME" value="com.com.user.OrderAndDetailServiceImplTest" />
-      <option name="METHOD_NAME" value="select" />
+      <option name="PACKAGE_NAME" value="com.com.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.com.manager.CustomerServiceImplTest" />
+      <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderAndDetailServiceImplTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderAndDetailServiceImplTest.queryOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BookcaseSales-web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.com.user.*" />
+          <option name="PATTERN" value="com.com.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.com.user" />
-      <option name="MAIN_CLASS_NAME" value="com.com.user.OrderAndDetailServiceImplTest" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="PACKAGE_NAME" value="com.com.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.com.manager.OrderAndDetailServiceImplTest" />
+      <option name="METHOD_NAME" value="queryOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderAndDetailServiceImplTest.testOrderQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderAndDetailServiceImplTest.testGetAllOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BookcaseSales-web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.com.user.*" />
+          <option name="PATTERN" value="com.com.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.com.user" />
-      <option name="MAIN_CLASS_NAME" value="com.com.user.OrderAndDetailServiceImplTest" />
-      <option name="METHOD_NAME" value="testOrderQuery" />
+      <option name="PACKAGE_NAME" value="com.com.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.com.manager.OrderAndDetailServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetAllOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderAndDetailServiceImplTest.updateOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookcaseSales-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.com.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.com.manager.OrderAndDetailServiceImplTest" />
+      <option name="METHOD_NAME" value="updateOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderAndDetailServiceImplTest.updateOrderDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookcaseSales-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.com.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.com.manager.OrderAndDetailServiceImplTest" />
+      <option name="METHOD_NAME" value="updateOrderDetail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -354,20 +424,20 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CustomerServiceImplTest.delete" />
-      <item itemvalue="JUnit.CartServiceImplTest" />
-      <item itemvalue="JUnit.CartServiceImplTest.querySettlementCart" />
-      <item itemvalue="JUnit.OrderAndDetailServiceImplTest.testInsert" />
-      <item itemvalue="JUnit.OrderAndDetailServiceImplTest.select" />
-      <item itemvalue="JUnit.OrderAndDetailServiceImplTest.testOrderQuery" />
+      <item itemvalue="JUnit.CustomerServiceImplTest.update" />
+      <item itemvalue="JUnit.OrderAndDetailServiceImplTest.testGetAllOrder" />
+      <item itemvalue="JUnit.OrderAndDetailServiceImplTest.updateOrder" />
+      <item itemvalue="JUnit.OrderAndDetailServiceImplTest.updateOrderDetail" />
+      <item itemvalue="JUnit.OrderAndDetailServiceImplTest.queryOne" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.21" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderAndDetailServiceImplTest.testOrderQuery" />
-        <item itemvalue="JUnit.OrderAndDetailServiceImplTest.testInsert" />
-        <item itemvalue="JUnit.OrderAndDetailServiceImplTest.select" />
-        <item itemvalue="JUnit.CartServiceImplTest.querySettlementCart" />
-        <item itemvalue="JUnit.CartServiceImplTest" />
+        <item itemvalue="JUnit.OrderAndDetailServiceImplTest.queryOne" />
+        <item itemvalue="JUnit.OrderAndDetailServiceImplTest.updateOrder" />
+        <item itemvalue="JUnit.OrderAndDetailServiceImplTest.updateOrderDetail" />
+        <item itemvalue="JUnit.OrderAndDetailServiceImplTest.testGetAllOrder" />
+        <item itemvalue="JUnit.CustomerServiceImplTest.update" />
       </list>
     </recent_temporary>
   </component>
@@ -381,6 +451,20 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:BookcaseSalesDB@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:BookcaseSalesDB@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4e30b35b" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -433,6 +517,20 @@
       <workItem from="1579658736237" duration="12685000" />
       <workItem from="1580180832984" duration="32771000" />
       <workItem from="1580444156928" duration="899000" />
+      <workItem from="1580445450625" duration="8436000" />
+      <workItem from="1580533128353" duration="8366000" />
+      <workItem from="1580612010325" duration="15772000" />
+      <workItem from="1580709642175" duration="4211000" />
+      <workItem from="1580973511002" duration="3637000" />
+      <workItem from="1581039278754" duration="9126000" />
+      <workItem from="1581136316110" duration="13071000" />
+      <workItem from="1581222117009" duration="7155000" />
+      <workItem from="1581296167999" duration="1930000" />
+      <workItem from="1581331782507" duration="9891000" />
+      <workItem from="1581412649285" duration="275000" />
+      <workItem from="1581419146230" duration="2323000" />
+      <workItem from="1581483709268" duration="1371000" />
+      <workItem from="1581514222591" duration="7873000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1577022462742</created>
@@ -448,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577237574147</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="正月初七的提交，前段时间对订单方面完成了一部分">
+      <created>1580445679177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580445679177</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,73 +576,78 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一次提交" />
     <MESSAGE value="第二次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
+    <MESSAGE value="正月初七的提交，前段时间对订单方面完成了一部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="正月初七的提交，前段时间对订单方面完成了一部分" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580360800850">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581222194384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580360800850" />
-    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1580363909732">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581222194384" />
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1581336305436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580363909732" />
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581336305436" />
     <state x="363" y="94" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580445038979">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="94" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1580445038979" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1580366595153">
+    <state x="117" y="0" key="CommitChangelistDialog2" timestamp="1580445663190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580366595153" />
-    <state width="1055" height="180" key="GridCell.Tab.0.bottom" timestamp="1580365497934">
+    <state x="117" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580445663190" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1581300408043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580365497934" />
-    <state width="1055" height="180" key="GridCell.Tab.0.center" timestamp="1580365497934">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581300408043" />
+    <state width="1055" height="42" key="GridCell.Tab.0.bottom" timestamp="1581579419664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580365497934" />
-    <state width="1055" height="180" key="GridCell.Tab.0.left" timestamp="1580365497933">
+    <state width="1055" height="42" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581579419664" />
+    <state width="1055" height="42" key="GridCell.Tab.0.center" timestamp="1581579419663">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580365497933" />
-    <state width="1055" height="180" key="GridCell.Tab.0.right" timestamp="1580365497934">
+    <state width="1055" height="42" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581579419663" />
+    <state width="1055" height="42" key="GridCell.Tab.0.left" timestamp="1581579419663">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580365497934" />
-    <state width="1055" height="2" key="GridCell.Tab.1.bottom" timestamp="1580365497852">
+    <state width="1055" height="42" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581579419663" />
+    <state width="1055" height="42" key="GridCell.Tab.0.right" timestamp="1581579419663">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="2" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
-    <state width="1055" height="2" key="GridCell.Tab.1.center" timestamp="1580365497852">
+    <state width="1055" height="42" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581579419663" />
+    <state width="1055" height="42" key="GridCell.Tab.1.bottom" timestamp="1581579419664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="2" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
-    <state width="1055" height="2" key="GridCell.Tab.1.left" timestamp="1580365497852">
+    <state width="1055" height="42" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581579419664" />
+    <state width="1055" height="42" key="GridCell.Tab.1.center" timestamp="1581579419664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="2" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
-    <state width="1055" height="2" key="GridCell.Tab.1.right" timestamp="1580365497852">
+    <state width="1055" height="42" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581579419664" />
+    <state width="1055" height="42" key="GridCell.Tab.1.left" timestamp="1581579419664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="2" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
-    <state width="1055" height="2" key="GridCell.Tab.2.bottom" timestamp="1580365497853">
+    <state width="1055" height="42" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581579419664" />
+    <state width="1055" height="42" key="GridCell.Tab.1.right" timestamp="1581579419664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="2" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580365497853" />
-    <state width="1055" height="2" key="GridCell.Tab.2.center" timestamp="1580365497852">
+    <state width="1055" height="42" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581579419664" />
+    <state width="1055" height="42" key="GridCell.Tab.2.bottom" timestamp="1581579419664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="2" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
-    <state width="1055" height="2" key="GridCell.Tab.2.left" timestamp="1580365497852">
+    <state width="1055" height="42" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581579419664" />
+    <state width="1055" height="42" key="GridCell.Tab.2.center" timestamp="1581579419664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="2" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
-    <state width="1055" height="2" key="GridCell.Tab.2.right" timestamp="1580365497852">
+    <state width="1055" height="42" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1581579419664" />
+    <state width="1055" height="42" key="GridCell.Tab.2.left" timestamp="1581579419664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="2" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1580365497852" />
+    <state width="1055" height="42" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1581579419664" />
+    <state width="1055" height="42" key="GridCell.Tab.2.right" timestamp="1581579419664">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1055" height="42" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1581579419664" />
     <state width="1055" height="74" key="GridCell.Tab.3.bottom" timestamp="1580263680374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -586,33 +696,45 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1055" height="353" key="GridCell.Tab.8.right/0.0.1366.728@0.0.1366.728" timestamp="1579570303861" />
+    <state x="129" y="61" key="MergeDialog" timestamp="1580445766859">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="61" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1580445766859" />
+    <state x="392" y="81" key="MultipleFileMergeDialog" timestamp="1580445777712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="81" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1580445777712" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1580180688902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580180688902" />
-    <state x="392" y="12" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1580364029242">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1580445687197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="392" y="12" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1580364029242" />
-    <state x="375" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1580445454884">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580445687197" />
+    <state x="392" y="12" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1580973940967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580445454884" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580444803791">
+    <state x="392" y="12" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1580973940967" />
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1581514222554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580444803791" />
-    <state x="57" y="0" key="new project wizard" timestamp="1578484764833">
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581514222554" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580445839896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1578484764833" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580445839896" />
+    <state x="57" y="0" key="new project wizard" timestamp="1581300152312">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1581300152312" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1579661368488">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1579661368488" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580362942519">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581335622481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580362942519" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581335622481" />
   </component>
 </project>

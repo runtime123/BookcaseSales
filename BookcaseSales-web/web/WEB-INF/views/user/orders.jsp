@@ -10,21 +10,30 @@
 <html>
 <head>
     <title>订单显示界面</title>
+    <style>
+        #o-all{
+            font-family: 楷体;
+        }
+        a{
+            color: blue;
+        }
+    </style>
+
+    <script src="static/js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
-    <div>显示订单信息</div>
-    <div>
+    <div id="o-all">
+        <div>
         <table id="tb-order">
             <thead>
                 <td>订单ID</td>
                 <td>订单编号</td>
                 <td>客户ID</td>
-                <!--<td>图书ID</td>
                 <td>图书名称</td>
                 <td>单价</td>
                 <td>数量</td>
                 <td>折扣</td>
-                <td>总价</td>-->
+                <td>总价</td>
                 <td>接受者</td>
                 <td>电话号码</td>
                 <td>地址</td>
@@ -32,35 +41,55 @@
             </thead>
             <c:forEach items="${orders.list}" var="o">
                 <tr>
-                    <td>${o.orderId}</td>
+                    <td class="o-oid">${o.orderId}</td>
                     <td>${o.orderSnid}</td>
                     <td>${o.orderCustomerId}</td>
+                    <c:forEach items="${o.orderDetails}" var="od">
 
+                           <td>${od.detailCustomerId}</td>
+                            <td>${od.detailBookName}</td>
+                            <td>${od.detailBookPrice}</td>
+                            <td>${od.detailBookAmount}</td>
+                            <td>${od.detailBookDiscount}</td>
 
+                    </c:forEach>
 
                     <td>${o.orderReciver}</td>
                     <td>${o.orderPhone}</td>
                     <td>${o.orderAddr}</td>
                     <td>
                         <a>订单结算</a>
-                        <a>修改订单</a>
-                        <a>取消订单</a>
+                        <a id="o-delete">取消订单</a>
                     </td>
                 </tr>
             </c:forEach>
         </table>
+
+
+    </div>
     </div>
 
-<script>
-    /**
-     * <!--<td>${o.orderDetails.detailBookId}</td>
-     <td>${o.orderDetails.detailBookName}</td>
-     <td>${o.orderDetails.detailBookPrice}</td>
-     <td>${o.orderDetails.detailBookAmount}</td>
-     <td>${o.orderDetails.detailBookDiscount}</td>
-     <td>${o.orderDetails.detailBookMoney}</td>-->
-     https://github.com/Thehickey/BookCityManagementSystem-parent/blob/master/BookCity-Web/web/WEB-INF/views/customer/order.jsp
-     */
+
+    <script>
+    $(function () {
+       deleteOne();
+    })
+
+    function deleteOne() {
+        $("#o-delete").click(function () {
+            var orderId = $(".o-oid").text();
+            alert(orderId)
+            $.ajax({
+                url:"deleteOrderAndDetailOne",
+                method:"POST",
+                data:{"orderId":orderId},
+                success:function () {
+                    alert("删除成功");
+                }
+            })
+        })
+
+    }
 </script>
 </body>
 </html>

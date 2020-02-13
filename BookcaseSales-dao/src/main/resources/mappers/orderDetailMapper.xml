@@ -23,4 +23,19 @@
     </select>
 
 
+    <delete id="deleteDetailOrderOneByDetailOrderId">
+        delete from order_detail
+        where detail_order_id = #{detailOrderId}
+    </delete>
+
+    <!--修改订单细节信息-->
+    <update id="updateOrderDetail">
+        update order_detail
+        set
+        detail_order_id = #{detailOrderId},detail_customer_id = #{detailCustomerId},
+        detail_book_name = #{detailBookName},detail_book_price = #{detailBookPrice},
+        detail_book_amount = #{detailBookAmount},detail_book_discount = #{detailBookDiscount},
+        detail_total_money = #{detailTotalMoney}
+        where detail_id = #{detailId}
+    </update>
 </mapper>

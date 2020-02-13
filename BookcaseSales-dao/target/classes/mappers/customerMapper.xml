@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.dao.CustomerDao">
 
-    <!--用户信息分页查询-->
+    <!--根据用户类型分页查询用户信息-->
     <select id="getAllUserByPage" resultType="com.entity.Customer">
         select customer_id, customer_name, customer_pwd, customer_phone, customer_address, customer_email, customer_type
         from customer
@@ -32,5 +32,6 @@
         select customer_id, customer_name, customer_pwd, customer_phone, customer_address, customer_email, customer_type
         from customer where customer_id = #{customerId}
     </select>
+
 
 </mapper>

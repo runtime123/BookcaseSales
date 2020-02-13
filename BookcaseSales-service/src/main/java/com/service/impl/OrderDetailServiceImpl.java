@@ -28,4 +28,14 @@ public class OrderDetailServiceImpl implements OrderDetailService {
     public List<OrderDetail> getDetailOrderByCustomerId(int customerId) {
         return orderDetailDao.getDetailOrderByCustomerId(customerId);
     }
+
+    @Override
+    public int deleteDetailOrderOneByDetailOrderId(int detailOrderId) {
+        return orderDetailDao.deleteDetailOrderOneByDetailOrderId(detailOrderId);
+    }
+
+    @Override
+    public int updateOrderDetail(OrderDetail orderDetail) {
+        return orderDetailDao.updateOrderDetail(orderDetail);
+    }
 }

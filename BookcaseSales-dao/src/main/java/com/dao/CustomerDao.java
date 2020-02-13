@@ -14,4 +14,6 @@ public interface CustomerDao {
     void update(Customer customer);
 
     Customer queryone(int customerId);
+
+
 }

@@ -53,5 +53,23 @@ public class OrderServiceImpl implements OrderService {
         return orderDao.updateOrder(OrderId, OrderPayStatus,OrderLastCreateAt);
     }
 
+    @Override
+    public int deleteOrderOneByOrderId(int orderId) {
+        return orderDao.deleteOrderOneByOrderId(orderId);
+    }
 
+    @Override
+    public List<Order> getAllOrderAndDetailBym(int pageNum, int pageSize) {
+        return orderDao.getAllOrderAndDetailBym(pageNum,pageSize);
+    }
+
+    @Override
+    public int updateOrderAll(Order order) {
+        return orderDao.updateOrderAll(order);
+    }
+
+    @Override
+    public Order getOrderByOrderIdm(int orderId) {
+        return orderDao.getOrderByOrderIdm(orderId);
+    }
 }

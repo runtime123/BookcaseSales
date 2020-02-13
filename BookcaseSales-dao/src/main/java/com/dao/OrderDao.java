@@ -1,5 +1,6 @@
 package com.dao;
 
+
 import com.entity.Order;
 import org.apache.ibatis.annotations.Param;
 
@@ -23,5 +24,15 @@ public interface OrderDao {
     //修改订单信息
     int updateOrder(int OrderId, int OrderPayStatus, Date OrderLastCreateAt);
 
+    //根据订单ID删除订单
+    int deleteOrderOneByOrderId(int orderId);
 
+    //分页查询所有订单信息
+    List<Order> getAllOrderAndDetailBym(@Param("pageNum") int pageNum,@Param("pageSize") int pageSize);
+
+    //根据订单编号删除订单信息
+    int updateOrderAll(Order order);
+
+    //查询某条订单信息
+    Order getOrderByOrderIdm(int orderId);
 }

@@ -64,7 +64,6 @@
         $.each($("#form").serializeArray(),function(i,e){
             $jsonData[e.name] = e.value;
         })
-
         $.ajax({
             url:"/zhuce",
             data:JSON.stringify($jsonData),

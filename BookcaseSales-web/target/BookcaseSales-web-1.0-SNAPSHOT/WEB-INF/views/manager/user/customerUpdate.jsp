@@ -11,25 +11,26 @@
 <html>
 <head>
     <title>用户信息修改界面</title>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 <div>
     <form id="form-u">
-        <input type="text" name="customerId" value="${uc.customerId}">
-        <input type="text" name="customerName" value="${uc.customerName}">
-        <input type="text" name="customerPwd" value="${uc.customerPwd}">
-        <input type="text" name="customerPhone" value="${uc.customerPhone}">
-        <input type="text" name="customerAddress" value="${uc.customerAddress}">
-        <input type="text" name="customerEmail" value="${uc.customerEmail}">
-        <input type="text" name="customerType" value="${uc.customerType}">
-        <input type="button" id="customerUpdate">
+        <input type="text" id="custoemrId" name="customerId" value="${uc.customerId}"><br>
+        <input type="text" id="custoemrName" name="customerName" value="${uc.customerName}"><br>
+        <input type="text" id="custoemrPwd" name="customerPwd" value="${uc.customerPwd}"><br>
+        <input type="text" id="custoemrPhone" name="customerPhone" value="${uc.customerPhone}"><br>
+        <input type="text" id="custoemrAddress" name="customerAddress" value="${uc.customerAddress}"><br>
+        <input type="text" id="custoemrEmail" name="customerEmail" value="${uc.customerEmail}"><br>
+        <input type="text" id="custoemrType" name="customerType" value="${uc.customerType}"><br>
+        <input type="button" id="customerUpdate" value="修改">
     </form>
 </div>
 
 <script>
-    $(function () {
-        loadTable();
-    })
+   $(function(){
+       loadTable();
+   })
 
     function loadTable() {
         $("#customerUpdate").click(function () {
@@ -37,17 +38,16 @@
             $.each($("#form-u").serializeArray(),function(i,e){
                 $jsonData[e.name] = e.value;
             })
+
             $.ajax({
-                url:"/doUpdate",
+                url:"/m/customer/doUpdate",
                 data:JSON.stringify($jsonData),
                 type:"POST",
                 dateType:"json",
                 contentType:"application/json;charset=utf-8",
-                success:function (data) {
-                    alert(data)
-                    if (data == "manager/user/customerManager"){
-                        window.location.href = "/customerManager/manger"
-                    }
+                success:function () {
+                    alert("修改应该成功了吧")
+                        window.location.href = "/m/customer/getAllUserByPage"
                 }
             })
         });

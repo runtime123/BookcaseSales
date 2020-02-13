@@ -20,6 +20,9 @@ public class CustomerServiceImplTest {
     @Autowired
     private CustomerService customerService;
 
+    /*
+        测试内容：根据用户类型查询用户信息
+     */
     @Test
     public void query() {
         List<Customer> customers = customerService.getAllUserByPage(0,1,4);
@@ -27,12 +30,18 @@ public class CustomerServiceImplTest {
         customerList.toString();
     }
 
+    /*
+        测试内容：修改用户信息
+     */
     @Test
     public void update() {
-        Customer customer = new Customer(1,"admin","888888","18370014966","北京完美世界界","206088745@qq.com",0);
+        Customer customer = new Customer(1,"admin","111111","18370014966","北京市完美世界区","206088745@qq.com",2);
         customerService.update(customer);
     }
 
+    /*
+        测试内容：删除用户信息
+     */
     @Test
     public void delete() {
         customerService.delete(7);

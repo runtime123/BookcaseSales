@@ -13,4 +13,11 @@ public interface OrderDetailDao {
     //根据用户Id获取订单细节信息
     List<OrderDetail> getDetailOrderByCustomerId(int customerId);
 
+    //根据订单ID删除订单
+    int deleteDetailOrderOneByDetailOrderId(int detailOrderId);
+
+    //修改订单细节信息
+    int updateOrderDetail(OrderDetail orderDetail);
+
+
 }

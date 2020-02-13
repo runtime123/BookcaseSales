@@ -9,13 +9,28 @@
 <html>
 <head>
     <title>管理员首页</title>
+
+    <style>
+        *{
+            font-family: 楷体;
+            font-size: large;
+        }
+
+        a{
+            color: #0000FF;
+        }
+
+
+    </style>
 </head>
 <body>
 
     <div>
-        <a >用户管理</a>
-        <a href="/book/bookList">图书管理</a>
-        <a>订单管理</a>
+        <a href="/m/customer/getAllUserByPage">用户管理</a>
+        <a>图书管理</a>
+        <a href="/m/orderAndDetail/getAllOrderAndDetailByPage">订单管理</a>
     </div>
+
+
 </body>
 </html>

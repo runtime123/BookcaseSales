@@ -19,11 +19,45 @@
     <script src="static/js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
+    <div>
+        <img id="refresh" src="static/image/刷新.jpg" onclick="refreshLocal()"
+             style="text-align: right">
+    </div>
     <!--<div id="order-reciver">
         <a>设置收货信息</a>
     </div>-->
 
     <div id="settlement-orderDetail-list">
+        <table>
+            <thead>
+            <td><input type="checkbox" class="settle-od-check-all"></td>
+            <td>图书名称</td>
+            <td>单价</td>
+            <td>数量</td>
+            <td>折扣</td>
+            <td>总价</td>
+            </thead>
+            <c:forEach items="${od}" var="ods">
+                <tr>
+                    <td>
+                        <input type="checkbox" data-odCount="${ods.detailBookAmount}"
+                               data-odPrice="${ods.detailBookPrice}" data-odDiscount="${ods.detailBookDiscount}"
+                               class="settle-od-check">
+                    </td>
+                    <td>${ods.detailBookName}</td>
+                    <td>${ods.detailBookPrice}</td>
+                    <td>${ods.detailBookAmount}</td>
+                    <td>${ods.detailBookDiscount}</td>
+                    <td>${ods.detailTotalMoney}</td>
+                </tr>
+            </c:forEach>
+            <tr>
+                <td>
+                    <span id="od-user"></span>共有商品<span id="od-count"></span>件，合计<span id="od-total"></span>元
+                    <span id="od-settlement"  style="color: green">支付宝--订单支付</span>
+                </td>
+            </tr>
+        </table>
 
     </div>
 
@@ -34,32 +68,31 @@
 
     <script>
 
+
+
         $(function(){
-           loadIng();
            getCount();
            getTotal();
            total_load();
            odcheckclick();
+            toPay();
         });
 
-        function loadIng(){
-            $.ajax({
-                url:"getOrderDetailByCutomerId",
-                method:"GET",
-                success:function(res){
-                    alert("查询成功！");
-                    alert(res);
-                    $("#settlement-orderDetail-list").append(res);
-                }
-            })
+        function refreshLocal(){
+            alert("刷新本页面");
+            window.location.reload();
         }
-        /*
+
+
         function toPay(){
-            $(".settlement-a").click(function(){
-                window.location.href = "/toPay";
+            $("#od-settlement").click(function(){
+                var money = $("#od-total").text();
+                alert("需要支付" + money + "元");
+                //window.location.href = "/toPay";
+
             });
         }
-        */
+
 
         //计算购物车总价
         function total_load(){
@@ -70,7 +103,6 @@
         function odcheckclick(){
             var count = 0;
             $(".settle-od-check-all").click(function(){
-                alert("fldfldfkdkfdlfjdfdlfjsdlfksdafldjfldkjfdslkfj");
                 var chs = document.getElementsByClassName("settle-od-check");
                 for (var i=0;i<chs.length;i++){
                     if (chs[i].checked){

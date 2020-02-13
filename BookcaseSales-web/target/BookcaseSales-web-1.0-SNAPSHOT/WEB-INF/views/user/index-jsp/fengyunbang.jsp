@@ -20,7 +20,7 @@
         </tr>
         <c:forEach var="bs" items="${bookInfoBySales}" varStatus="s">
             <tr>
-                <td><font style="color: #FF5722">${s.index}</font></td>
+                <td><font style="color: #FF5722">${s.index+1}</font></td>
                 <td><a style="color: blue">${bs.bookName}</a></td>
                 <td>${bs.bookSales}</td>
             </tr>
