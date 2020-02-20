@@ -31,6 +31,7 @@
         <table>
             <thead>
             <td><input type="checkbox" class="settle-od-check-all"></td>
+            <td>订单ID</td>
             <td>图书名称</td>
             <td>单价</td>
             <td>数量</td>
@@ -40,10 +41,12 @@
             <c:forEach items="${od}" var="ods">
                 <tr>
                     <td>
-                        <input type="checkbox" data-odCount="${ods.detailBookAmount}"
-                               data-odPrice="${ods.detailBookPrice}" data-odDiscount="${ods.detailBookDiscount}"
+                        <input type="checkbox" data-detailOrderId="${ods.detailOrderId}"
+                               data-odCount="${ods.detailBookAmount}"
+                               data-odPrice="${ods.detailTotalMoney}" data-odDiscount="${ods.detailBookDiscount}"
                                class="settle-od-check">
                     </td>
+                    <td class="ods-detailOrderId">${ods.detailOrderId}</td>
                     <td>${ods.detailBookName}</td>
                     <td>${ods.detailBookPrice}</td>
                     <td>${ods.detailBookAmount}</td>
@@ -54,7 +57,7 @@
             <tr>
                 <td>
                     <span id="od-user"></span>共有商品<span id="od-count"></span>件，合计<span id="od-total"></span>元
-                    <span id="od-settlement"  style="color: green">支付宝--订单支付</span>
+                    <span id="od-settlement" style="color: green">支付宝--订单支付</span>
                 </td>
             </tr>
         </table>
@@ -86,9 +89,24 @@
 
         function toPay(){
             $("#od-settlement").click(function(){
-                var money = $("#od-total").text();
-                alert("需要支付" + money + "元");
-                //window.location.href = "/toPay";
+                var totalMoney = $("#od-total").text();
+                var orderId = 0;
+                $.each($(":checkbox"),function (index,element) {
+                    if (element.checked == true){//表示所有选中的复选框
+                        orderId = $(this).attr("data-detailOrderId");
+
+                    }
+                })
+                alert(orderId);
+                alert("需要支付" + totalMoney + "元");
+                $.ajax({
+                    url:"/pay/success",
+                    type:"GET",
+                    //contentType:"application/json;charset=utf-8",
+                    success:function (data) {
+                        alert("zhangguoqian")
+                    }
+                })
 
             });
         }

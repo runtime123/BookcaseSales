@@ -27,7 +27,7 @@ public class OrderAndDetailServiceImplTest {
     public void testGetAllOrder() {
         List<Order> orderList = orderService.getAllOrderAndDetailBym(1,6);
         for (Order order : orderList) {
-            System.out.println(order);
+            System.out.println(order.getOrderCreateAt());
         }
     }
 
@@ -35,7 +35,7 @@ public class OrderAndDetailServiceImplTest {
     public void updateOrder() {
 
 
-        Order order = new Order(75,"75667e1b-d6ae-425a-a834-36c894d051e1",4,"苏尘","18370014964","江苏省苏州市我是仙凡界", Date.valueOf("2020-02-01"),0,Date.valueOf("2019-02-01"),null);
+        Order order = new Order(75,"75667e1b-d6ae-425a-a834-36c894d051e1",4,"苏尘","18370014964","江苏省苏州市我是仙凡界", Date.valueOf("2020-02-01"),0,new java.util.Date());
         orderService.updateOrderAll(order);
     }
 
@@ -45,13 +45,18 @@ public class OrderAndDetailServiceImplTest {
         orderDetailService.updateOrderDetail(orderDetail);
     }
 
-    //查询某条订单信息
-
-
+    //查询某条订单及其信息
     @Test
     public void queryOne() {
         Order order = orderService.getOrderByOrderIdm(75);
-        System.out.println(order);
+        System.out.println();
+    }
 
+    //查询某条订单及其细节信息
+    @Test
+    public void queryOrderAndDetail() {
+        Order order = orderService.getOneOrderByOrderId(75);
+        OrderDetail orderDetail = orderDetailService.getOneOrderDetail(75);
+        System.out.println("-----------" + orderDetail.getDetailId());
     }
 }

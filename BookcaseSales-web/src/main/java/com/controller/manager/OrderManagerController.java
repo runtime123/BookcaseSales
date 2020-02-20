@@ -13,6 +13,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
@@ -29,6 +30,8 @@ public class OrderManagerController {
     @Autowired
     private OrderDetailService orderDetailService;
 
+
+
     /**
      * 分页查询所有订单
      */
@@ -42,13 +45,17 @@ public class OrderManagerController {
         return "manager/order/orderAndDetailManager";
     }
 
+
     /**
+     * 根据订但ID得到一条订单及其细节信息
      * 进入修改订单信息界面修改订单信息
      */
     @RequestMapping("/toUpdateJsp")
     public String updateOrder(@RequestParam(value = "orderId",required = false) int orderId,Model model) {
-        Order order = orderService.getOrderByOrderIdm(orderId);
-        model.addAttribute("order",order);
+        Order order = orderService.getOneOrderByOrderId(orderId);
+        OrderDetail orderDetail = orderDetailService.getOneOrderDetail(orderId);
+        model.addAttribute("mOrderToUpdate",order);
+        model.addAttribute("mOrderDetailToUpdate",orderDetail);
         return "manager/order/updateOrderAndDetail";
     }
 
@@ -57,6 +64,7 @@ public class OrderManagerController {
      */
     @RequestMapping("/doUpdateOrderDetail")
     public String updateOrder(@RequestBody OrderDetail orderDetail){
+        System.out.println("666666666666666666666666666666" + orderDetail);
         orderDetailService.updateOrderDetail(orderDetail);
         return "manager/order/orderAndDetailManager";
     }
@@ -66,6 +74,7 @@ public class OrderManagerController {
      */
     @RequestMapping("/doUpdateOrder")
     public String updateOrder(@RequestBody Order order){
+        ;
         orderService.updateOrderAll(order);
         return "manager/order/orderAndDetailManager";
     }

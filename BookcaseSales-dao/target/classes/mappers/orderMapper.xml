@@ -106,11 +106,16 @@
     </update>
 
 
-    <!--查询某条订单细节信息-->
+    <!--查询某条订单及其细节信息-->
     <select id="getOrderByOrderIdm" resultMap="orderMap">
         <include refid="commonSelectSql"></include>
         where order_id = #{orderId}
     </select>
 
+    <select id="getOneOrderByOrderId" resultType="com.entity.Order">
+        select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status, order_last_create_at
+        from orders
+        where order_id = #{orderId}
+    </select>
 
 </mapper>

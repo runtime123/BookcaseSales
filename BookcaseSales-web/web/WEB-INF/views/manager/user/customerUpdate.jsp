@@ -38,7 +38,7 @@
             $.each($("#form-u").serializeArray(),function(i,e){
                 $jsonData[e.name] = e.value;
             })
-
+            alert(JSON.stringify($jsonData))
             $.ajax({
                 url:"/m/customer/doUpdate",
                 data:JSON.stringify($jsonData),

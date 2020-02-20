@@ -37,6 +37,7 @@
                 <td>接受者</td>
                 <td>电话号码</td>
                 <td>地址</td>
+                <td>订单状态</td>
                 <td>管理</td>
             </thead>
             <c:forEach items="${orders.list}" var="o">
@@ -46,20 +47,22 @@
                     <td>${o.orderCustomerId}</td>
                     <c:forEach items="${o.orderDetails}" var="od">
 
-                           <td>${od.detailCustomerId}</td>
+
                             <td>${od.detailBookName}</td>
                             <td>${od.detailBookPrice}</td>
                             <td>${od.detailBookAmount}</td>
                             <td>${od.detailBookDiscount}</td>
-
+                            <td data-money="${od.detailTotalMoney}"
+                                    class="total-money">${od.detailTotalMoney}</td>
                     </c:forEach>
 
                     <td>${o.orderReciver}</td>
                     <td>${o.orderPhone}</td>
                     <td>${o.orderAddr}</td>
+                    <td>${o.orderPayStatus}</td>
                     <td>
-                        <a>订单结算</a>
-                        <a id="o-delete">取消订单</a>
+                        <a class="order-settlement" >订单结算</a>
+                        <a class="o-delete" data-orderId="${o.orderId}">取消订单</a>
                     </td>
                 </tr>
             </c:forEach>
@@ -73,22 +76,33 @@
     <script>
     $(function () {
        deleteOne();
+       settlementOrder();
     })
 
     function deleteOne() {
-        $("#o-delete").click(function () {
-            var orderId = $(".o-oid").text();
+        $(".o-delete").click(function () {
+            var orderId = $(this).attr("data-orderId");
             alert(orderId)
+
             $.ajax({
-                url:"deleteOrderAndDetailOne",
+                url:"deleteOrderAndDetailOne?orderId=" + orderId,
                 method:"POST",
                 data:{"orderId":orderId},
                 success:function () {
                     alert("删除成功");
+                    window.location.reload();
                 }
             })
         })
 
+    }
+
+    function settlementOrder(){
+        $(".order-settlement").click(function(){
+            var trthis = document.getElementsByClassName("order-settlement").parentElement;
+            var money = trthis.children[7];
+            alert(money)
+        });
     }
 </script>
 </body>

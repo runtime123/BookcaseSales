@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <span style="text-align: center;color: gold; font-size: xx-large;">所有图书类型</span><br>
-<table class="t-book-leixign">
+<!--<table class="t-book-leixign">
     <tr>
         <td>&nbsp;&nbsp;哲学&nbsp;&nbsp;</td>
         <td>宗教&nbsp;&nbsp;</td>
@@ -40,17 +40,17 @@
     </tr>
 
 
-</table>
+</table>-->
 
 
 
-<!--<c:forEach var="booktype" items="${bookTypeInfoList}">
+<c:forEach var="booktype" items="${bookTypeInfoList}">
                    <span>
                         <a class="getBook-a" data-bookName="${booktype.detailTypeName}"
                            style="color: blue">
                                 ${booktype.detailTypeName}
                             &nbsp;&nbsp;</a>
                    </span>
-</c:forEach>-->
+</c:forEach>
 
 

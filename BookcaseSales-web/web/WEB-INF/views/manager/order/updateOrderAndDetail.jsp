@@ -7,40 +7,89 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:set var="detail" value="${order.orderDetails}" scope="page"></c:set>
 <html>
 <head>
-    <title>修改订单及其细节信息</title>
-    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <title>修改订单及其细节信息界面</title>
 </head>
 <body>
 <div>
-    <form id="m-form-o">
-        <input type="text" id="orderId" class="orderId" value="${order.orderId}"><br>
-        <input type="text" id="orderSnid" class="orderSnid" value="${order.orderSnid}"><br>
-        <input type="text" id="orderCustomerId" class="orderCustomerId" value="${order.orderCustomerId}"><br>
-        <input type="text" id="orderReciver" class="orderReciver" value="${order.orderReciver}"><br>
-        <input type="text" id="orderPhone" class="orderPhone" value="${order.orderPhone}"><br>
-        <input type="text" id="orderAddr" class="orderAddr" value="${order.orderAddr}"><br>
-        <input type="text" id="orderCreateAt" class="orderCreateAt" value="${order.orderCreateAt}"><br>
-        <input type="text" id="orderStatus" class="orderStatus" value="${order.orderPayStatus}"><br>
-        <input type="text" id="orderLastCreateAt" class="orderLastCreateAt" value="${order.orderLastCreateAt}"><br>
-        <input type="button" id="orderUpdate" value="修改">
-    </form>
+    <form id="m-form-o-u">
+    <input type="text" id="orderId" name="orderId" value="${mOrderToUpdate.orderId}"><br>
+    <input type="text" id="orderSnid" name="orderSnid" value="${mOrderToUpdate.orderSnid}"><br>
+    <input type="text" id="orderCustomerId" name="orderCustomerId" value="${mOrderToUpdate.orderCustomerId}"><br>
+    <input type="text" id="orderReciver" name="orderReciver" value="${mOrderToUpdate.orderReciver}"><br>
+    <input type="text" id="orderPhone" name="orderPhone" value="${mOrderToUpdate.orderPhone}"><br>
+    <input type="text" id="orderAddr" name="orderAddr" value="${mOrderToUpdate.orderAddr}"><br>
+    <input type="text" id="orderCreateAt" name="orderCreateAt" value="${mOrderToUpdate.orderCreateAt}"><br>
+    <input type="text" id="orderStatus" name="orderStatus" value="${mOrderToUpdate.orderPayStatus}"><br>
+    <input type="text" id="orderLastCreateAt" name="orderLastCreateAt" value="${mOrderToUpdate.orderLastCreateAt}"><br>
+    <input type="button" id="orderUpdate" value="修改">
+</form>
 </div>
     <div>
-        <form id="m-form-od">
-            <input id="detailId" class="detail" value="${detail.get(0)}">
-            <input id="detailOrderId" class="detail" value="${detail.get(1)}">
-            <input id="detailCustomerId" class="detail" value="${detail.get(2)}">
-            <input id="detailBookName" class="detail" value="${detail.get(3)}">
-            <input id="detailBookPrice" class="detail" value="${detail.get(4)}">
-            <input id="detailBookAmount" class="detail" value="${detail.get(5)}">
-            <input id="detailBookDiscount" class="detail" value="${detail.get(6)}">
-            <input id="detailTotalMony" class="detail" value="${detail.get(7)}">
+        <form id="m-form-od-u">
+            <input type="text" id="detailId" name="detailId" value="${mOrderDetailToUpdate.detailId}">
+            <input type="text" id="detailOrderId" name="detailOrderId" value="${mOrderDetailToUpdate.detailOrderId}">
+            <input type="text" id="detailCustomerId" name="detailCustomerId" value="${mOrderDetailToUpdate.detailCustomerId}">
+            <input type="text" id="detailBookName" name="detailBookName" value="${mOrderDetailToUpdate.detailBookName}">
+            <input type="text" id="detailBookPrice" name="detailBookPrice" value="${mOrderDetailToUpdate.detailBookPrice}">
+            <input type="text" id="detailBookAmount" name="detailBookAmount" value="${mOrderDetailToUpdate.detailBookAmount}">
+            <input type="text" id="detailBookDiscount" name="detailDiscount" value="${mOrderDetailToUpdate.detailBookDiscount}">
+            <input type="text" id="detailTotalMoney" name="detailTotalMoney" value="${mOrderDetailToUpdate.detailTotalMoney}">
             <input type="button" id="orderDetailUpdate" value="修改">
         </form>
     </div>
+
+
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+<script>
+    $(function(){
+        updateOrder();
+        updateOrderDetail()
+    })
+
+    function updateOrder(){
+        $("#orderUpdate").click(function () {
+            var $jsonData = {};
+            $.each($("#m-form-o-u").serializeArray(),function(i,e){
+                $jsonData[e.name] = e.value;
+            })
+            alert(JSON.stringify($jsonData))
+           $.ajax({
+               url:"/m/orderAndDetail/doUpdateOrder",
+               data:JSON.stringify($jsonData),
+               type:"POST",
+               dateType:"json",
+               contentType:"application/json;charset=utf-8",
+               success(){
+                   alert("修改成功");
+                   window.location.href = "/m/orderAndDetail/getAllOrderAndDetailByPage";
+               }
+           })
+        });
+    }
+
+    function updateOrderDetail(){
+        $("#orderDetailUpdate").click(function () {
+            var $jsonData = {};
+            $.each($("#m-form-od-u").serializeArray(),function(i,e){
+                $jsonData[e.name] = e.value;
+            })
+            alert(JSON.stringify($jsonData));
+            $.ajax({
+                url:"/m/orderAndDetail/doUpdateOrderDetail",
+                method:"POST",
+                data:JSON.stringify($jsonData),
+                dateType:"json",
+                contentType:"application/json;charset=utf-8",
+                success(){
+                    alert("修改成功");
+                    window.location.href = "/m/orderAndDetail/getAllOrderAndDetailByPage";
+                }
+            })
+        });
+    }
+</script>
 
 </body>
 </html>

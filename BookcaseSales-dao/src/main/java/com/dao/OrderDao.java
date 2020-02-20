@@ -33,6 +33,9 @@ public interface OrderDao {
     //根据订单编号删除订单信息
     int updateOrderAll(Order order);
 
-    //查询某条订单信息
+    //查询某条订单及其信息
     Order getOrderByOrderIdm(int orderId);
+    //查询某条订单信息
+    Order getOneOrderByOrderId(int orderId);
+
 }

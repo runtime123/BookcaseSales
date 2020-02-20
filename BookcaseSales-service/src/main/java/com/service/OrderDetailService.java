@@ -17,4 +17,6 @@ public interface OrderDetailService {
     int deleteDetailOrderOneByDetailOrderId(int detailOrderId);
     //修改订单细节信息
     int updateOrderDetail(OrderDetail orderDetail);
+
+    OrderDetail getOneOrderDetail(int detailOrderId);
 }

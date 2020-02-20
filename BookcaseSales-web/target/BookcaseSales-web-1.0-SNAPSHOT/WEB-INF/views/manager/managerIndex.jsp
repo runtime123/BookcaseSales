@@ -27,8 +27,9 @@
 
     <div>
         <a href="/m/customer/getAllUserByPage">用户管理</a>
-        <a>图书管理</a>
+        <a href="/m/book/bookList">图书管理</a>
         <a href="/m/orderAndDetail/getAllOrderAndDetailByPage">订单管理</a>
+        <a href="/pay/topay?totalMoney=100&orderId=101">支付宝支付开发</a>
     </div>
 
 

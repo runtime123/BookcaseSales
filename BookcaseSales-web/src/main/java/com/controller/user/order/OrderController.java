@@ -72,13 +72,15 @@ public class OrderController {
         /**
          * 生成订单对象
          */
-        Order order1 = new Order(orderSnid,customer.getCustomerId(),customer.getCustomerName(),customer.getCustomerPhone(),customer.getCustomerAddress(),new Date(),0,new Date());
+        Order order1 = new Order(orderSnid,customer.getCustomerId(),customer.getCustomerName(),customer.getCustomerPhone(),customer.getCustomerAddress(),new Date(),0,null);
         orderService.insertOrder(order1);//生成一条订单
         //添加一条订单细节信息
         Order order2 = orderService.getOrderByOrderSnid(orderSnid);
         OrderDetail orderDetail = new OrderDetail(order2.getOrderId(),cart.getCartCustomerId(),cartBookName,cart.getCartBookSellPrice(),cart.getCartBookCount(),cart.getCartBookDiscount(),cart.getCartBookAllprice());
         orderDetailService.insertOrderDetail(orderDetail);//生成一条订单细节信息
 
+        //生成订单后删除购物车中的这条商品信息
+        cartService.deleteOne(cart.getCartCustomerId(),cart.getCartBookName());
         return "user/settlement";
 
     }
@@ -91,18 +93,10 @@ public class OrderController {
         List<OrderDetail> orderDetails = orderDetailService.getDetailOrderByCustomerId(customer.getCustomerId());
         //request.setAttribute("od",orderDetails);
         model.addAttribute("od",orderDetails);
-        System.out.println("++++++++" + orderDetails);
         return "user/settlement";
     }
 
-    /**
-    进行订单扫码支付，点击扫码支付按钮时，传一个支付金额给toPay方法
-     */
-    @RequestMapping("/toPay")
-    public String toPay(BigDecimal payMoney){
-        return "user/pay";
 
-    }
 
     //根据订单ID删除订单
     @RequestMapping("/deleteOrderAndDetailOne")

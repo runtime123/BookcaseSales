@@ -52,14 +52,19 @@
     <form id="form">
         账号：<input type="text" name="customerName" /><br><br>
         密码：<input type="password" name="customerPwd" maxlength="6"/><br><br><br>
-        <button type="button" id="button">登 录</button>
-    </form>
 
+    </form>
+        <button type="button" id="button">登 录</button>
+        <button type="button" onclick="toRegist()" >注册</button>
 </div>
 
 
 <script>
 
+
+    function toRegist(){
+        window.location.href = "/regist";
+    }
 
     function login() {
         //获取登录信息数据并转换成josn类型

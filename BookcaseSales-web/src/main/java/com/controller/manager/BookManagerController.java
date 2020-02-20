@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
 @Controller
-@RequestMapping("/book")
+@RequestMapping("/m/book")
 public class BookManagerController {
     @Autowired
     private BookService bookService;
@@ -31,7 +31,7 @@ public class BookManagerController {
         PageInfo pageInfo = new PageInfo(bookList);
         //存入model
         model.addAttribute("book",pageInfo);
-        return "book/bookManager";
+        return "manager/book/bookManger";
     }
 
     @RequestMapping("/add")
@@ -39,20 +39,38 @@ public class BookManagerController {
 
         bookService.bookAdd(bookInfo);
 
-        return "manager/bookManager";
+        return "manager/book/bookAdd";
     }
 
     @RequestMapping("/delete")
     public String delete(int BookId){
         bookService.bookDelete(BookId);
-        return "bookManager";
+        return "";
     }
 
     @RequestMapping("/update")
     public String update(){
 
-        return "bookUpdate";
+        return "";
     }
 
+
+    /**
+     * 前往图书添加界面
+     * @return
+     */
+    @RequestMapping("/toAdd")
+    public String toAddBook(){
+        return "manager/book/bookAdd";
+    }
+
+    /**
+     * 进行图书添加操作
+     */
+    @RequestMapping("/doAdd")
+    public String doAddBook(){
+
+        return "manager/book/bookManger";
+    }
 
 }

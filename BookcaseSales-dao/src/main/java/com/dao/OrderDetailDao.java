@@ -19,5 +19,7 @@ public interface OrderDetailDao {
     //修改订单细节信息
     int updateOrderDetail(OrderDetail orderDetail);
 
+    //查询某条订单细节信息
+    OrderDetail getOneOrderDetail(int detailOrderId);
 
 }

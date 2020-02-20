@@ -31,6 +31,8 @@ public interface OrderService {
 
     //修改订单信息
     int updateOrderAll(Order order);
-
+    //获取某条订单及其细节信息
     Order getOrderByOrderIdm(int orderId);
+    //获取某条订单信息
+    Order getOneOrderByOrderId(int orderId);
 }

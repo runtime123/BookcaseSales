@@ -1,18 +1,16 @@
 <%--
   Created by IntelliJ IDEA.
   User: ZHANG GUO QIAN
-  Date: 2019/12/11
-  Time: 7:39
+  Date: 2020/2/20
+  Time: 10:15
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>支付成功</title>
 </head>
 <body>
-
-    <!--页面正在开发中。。。。。。-->
-
+<h1>支付成功</h1>
 </body>
 </html>
