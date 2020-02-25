@@ -90,24 +90,12 @@
         function toPay(){
             $("#od-settlement").click(function(){
                 var totalMoney = $("#od-total").text();
-                var orderId = 0;
                 $.each($(":checkbox"),function (index,element) {
                     if (element.checked == true){//表示所有选中的复选框
-                        orderId = $(this).attr("data-detailOrderId");
-
+                        var orderId = $(this).attr("data-detailOrderId");
+                        window .location.href = "/toPay?totalMoney=" + totalMoney + "&orderId=" + orderId;
                     }
                 })
-                alert(orderId);
-                alert("需要支付" + totalMoney + "元");
-                $.ajax({
-                    url:"/pay/success",
-                    type:"GET",
-                    //contentType:"application/json;charset=utf-8",
-                    success:function (data) {
-                        alert("zhangguoqian")
-                    }
-                })
-
             });
         }
 

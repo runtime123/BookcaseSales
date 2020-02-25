@@ -19,6 +19,11 @@ public class OrderDetail {
     public OrderDetail() {
     }
 
+    public OrderDetail(Integer detailOrderId, BigDecimal detailTotalMoney) {
+        DetailOrderId = detailOrderId;
+        DetailTotalMoney = detailTotalMoney;
+    }
+
     public OrderDetail(Integer detailOrderId, Integer detailCustomerId, String detailBookName, BigDecimal detailBookPrice, Integer detailBookAmount, Integer detailBookDiscount, BigDecimal detailTotalMoney) {
         DetailOrderId = detailOrderId;
         DetailCustomerId = detailCustomerId;

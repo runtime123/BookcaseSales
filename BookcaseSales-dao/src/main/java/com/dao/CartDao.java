@@ -21,4 +21,7 @@ public interface CartDao {
     int deleteByCartCustomerId(int CartCustomerId);
 
     Cart querySettlementCart(@Param("CartCustomerId") int CartCustomerId,@Param("CartBookName") String CartBookName);
+
+    //
+    Cart getCartByCartId(int CartId);
 }

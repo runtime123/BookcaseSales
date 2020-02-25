@@ -40,7 +40,9 @@
     </update>
     
     <select id="getOneOrderDetail" resultType="com.entity.OrderDetail">
-        select detail_id, detail_order_id, detail_customer_id, detail_book_name, detail_book_price, detail_book_amount, detail_book_discount, detail_total_money
+getPayOrderDetail        select detail_id, detail_order_id, detail_customer_id, detail_book_name, detail_book_price, detail_book_amount, detail_book_discount, detail_total_money
         from order_detail where detail_order_id = #{detail_order_id}
     </select>
+
+
 </mapper>

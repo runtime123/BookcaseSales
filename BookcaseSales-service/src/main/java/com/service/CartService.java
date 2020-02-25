@@ -2,6 +2,7 @@ package com.service;
 
 import com.entity.Cart;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public interface CartService {
@@ -20,4 +21,7 @@ public interface CartService {
     int deleteByCartCustomerId(int CartCustomerId);
     //根据用户编号查询用户信息
     Cart querySettlementCart(int cartCustomerId,String cartBookName);
+
+    Cart getCartByCartId(int CartId);
+
 }

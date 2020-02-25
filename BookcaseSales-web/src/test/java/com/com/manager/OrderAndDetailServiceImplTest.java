@@ -35,7 +35,7 @@ public class OrderAndDetailServiceImplTest {
     public void updateOrder() {
 
 
-        Order order = new Order(75,"75667e1b-d6ae-425a-a834-36c894d051e1",4,"苏尘","18370014964","江苏省苏州市我是仙凡界", Date.valueOf("2020-02-01"),0,new java.util.Date());
+        Order order = new Order(75,"75667e1b-d6ae-425a-a834-36c894d051e1",4,"苏尘","18370014964","江苏省苏州市我是仙凡界",BigDecimal.valueOf(100), Date.valueOf("2020-02-01"),0,new java.util.Date());
         orderService.updateOrderAll(order);
     }
 

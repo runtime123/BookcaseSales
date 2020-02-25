@@ -44,7 +44,7 @@ public class OrderAndDetailServiceImplTest {
     @Test
     public void testInsert(){
         String snid = OrderUtil.getOrderSnid();
-        Order order = new Order(snid,9,"陈川","18370014967","四川省成都市洪荒封神界",new Date(),0,new Date());
+        Order order = new Order(snid,9,"陈川","18370014967","四川省成都市洪荒封神界",BigDecimal.valueOf(100),new Date(),0,new Date());
         int result1 = orderService.insertOrder(order);
         Order order2 = orderService.getOrderByOrderSnid(snid);
         Integer detailOrderId = order2.getOrderId();

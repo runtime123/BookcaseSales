@@ -6,6 +6,7 @@ import com.service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @Service
@@ -54,4 +55,11 @@ public class CartServiceImpl implements CartService {
     public Cart querySettlementCart(int cartCustomerId, String cartBookName) {
         return cartDao.querySettlementCart(cartCustomerId,cartBookName);
     }
+
+    @Override
+    public Cart getCartByCartId(int CartId) {
+        return cartDao.getCartByCartId(CartId);
+    }
+
+
 }

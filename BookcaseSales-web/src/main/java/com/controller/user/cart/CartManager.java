@@ -45,9 +45,15 @@ public class CartManager {
 
         Customer customer1 = (Customer) request.getSession().getAttribute("customer1");
 
+        //数量
+        Integer amount = 1;
+        //单价
         BigDecimal price = new BigDecimal(CartBookSellPrice);
+        //折扣
         Integer discount = Integer.parseInt(CartBookDiscount);
+        //总价
         BigDecimal allMoney = new BigDecimal(Double.valueOf(CartBookSellPrice)*Double.valueOf(CartBookDiscount)/10);
+        System.out.println("一一一一一一一一一一一一" + allMoney);
         Cart cart1 = new Cart(customer1.getCustomerId(),CartBookName,price,1,discount,allMoney);
 
             int result = cartService.addCartNull(cart1);

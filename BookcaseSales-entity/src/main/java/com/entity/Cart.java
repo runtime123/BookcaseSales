@@ -7,6 +7,8 @@ import java.math.BigDecimal;
 @Data
 public class Cart {
 
+    private Integer CartId;
+
     private Integer CartCustomerId;
 
     private String CartBookName;
@@ -19,31 +21,19 @@ public class Cart {
 
     private BigDecimal CartBookAllprice;
 
-    public Integer getCartCustomerId() {
-        return CartCustomerId;
-    }
-
-    public BigDecimal getCartBookSellPrice() {
-        return CartBookSellPrice;
-    }
-
-    public Integer getCartBookDiscount() {
-        return CartBookDiscount;
-    }
-
-    public BigDecimal getCartBookAllprice() {
-        return CartBookAllprice;
-    }
-
-    public String getCartBookName() {
-        return CartBookName;
-    }
-
-    public Integer getCartBookCount() {
-        return CartBookCount;
-    }
 
     public Cart() {
+    }
+
+    public Cart(Integer cartId, BigDecimal cartBookAllprice) {
+        CartId = cartId;
+        CartBookAllprice = cartBookAllprice;
+    }
+
+    public Cart(Integer cartId, Integer cartBookCount, BigDecimal cartBookAllprice) {
+        CartId = cartId;
+        CartBookCount = cartBookCount;
+        CartBookAllprice = cartBookAllprice;
     }
 
     public Cart(Integer cartCustomerId, String cartBookName, BigDecimal cartBookSellPrice, Integer cartBookCount, Integer cartBookDiscount, BigDecimal cartBookAllprice) {
@@ -55,5 +45,13 @@ public class Cart {
         CartBookAllprice = cartBookAllprice;
     }
 
-
+    public Cart(Integer cartId, Integer cartCustomerId, String cartBookName, BigDecimal cartBookSellPrice, Integer cartBookCount, Integer cartBookDiscount, BigDecimal cartBookAllprice) {
+        CartId = cartId;
+        CartCustomerId = cartCustomerId;
+        CartBookName = cartBookName;
+        CartBookSellPrice = cartBookSellPrice;
+        CartBookCount = cartBookCount;
+        CartBookDiscount = cartBookDiscount;
+        CartBookAllprice = cartBookAllprice;
+    }
 }

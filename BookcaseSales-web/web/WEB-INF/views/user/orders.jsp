@@ -26,6 +26,7 @@
         <div>
         <table id="tb-order">
             <thead>
+
                 <td>订单ID</td>
                 <td>订单编号</td>
                 <td>客户ID</td>
@@ -42,7 +43,7 @@
             </thead>
             <c:forEach items="${orders.list}" var="o">
                 <tr>
-                    <td class="o-oid">${o.orderId}</td>
+                    <td class="o-orderId">${o.orderId}</td>
                     <td>${o.orderSnid}</td>
                     <td>${o.orderCustomerId}</td>
                     <c:forEach items="${o.orderDetails}" var="od">
@@ -52,16 +53,17 @@
                             <td>${od.detailBookPrice}</td>
                             <td>${od.detailBookAmount}</td>
                             <td>${od.detailBookDiscount}</td>
-                            <td data-money="${od.detailTotalMoney}"
-                                    class="total-money">${od.detailTotalMoney}</td>
                     </c:forEach>
-
+                    <td data-money="${o.orderMoney}"
+                        class="total-money">${o.orderMoney}</td>
                     <td>${o.orderReciver}</td>
                     <td>${o.orderPhone}</td>
                     <td>${o.orderAddr}</td>
                     <td>${o.orderPayStatus}</td>
                     <td>
-                        <a class="order-settlement" >订单结算</a>
+                        <a class="order-settlement"
+                           data-orderId="${o.orderId}" data-totalMoney="${o.orderMoney}"
+                        >订单结算</a>
                         <a class="o-delete" data-orderId="${o.orderId}">取消订单</a>
                     </td>
                 </tr>
@@ -99,9 +101,9 @@
 
     function settlementOrder(){
         $(".order-settlement").click(function(){
-            var trthis = document.getElementsByClassName("order-settlement").parentElement;
-            var money = trthis.children[7];
-            alert(money)
+            var orderId = $(this).attr("data-orderId");
+            var totalMoney = $(this).attr("data-totalMoney");
+            window .location.href = "/toPay?totalMoney=" + totalMoney + "&orderId=" + orderId;
         });
     }
 </script>

@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.math.BigDecimal;
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = AppConfig.class)
 public class CartServiceImplTest {
@@ -17,12 +19,12 @@ public class CartServiceImplTest {
 
     @Test
     public void getCartByCustomerId() {
-        cartService.getCartByCustomerId(5);
+        cartService.getCartByCustomerId(4);
     }
 
     @Test
     public void addCartNull() {
-        Cart cart = new Cart();
+        Cart cart = new Cart(4,"34r4r", BigDecimal.valueOf(10),1,9,BigDecimal.valueOf(18));
         cartService.addCartNull(cart);
     }
 
@@ -51,5 +53,9 @@ public class CartServiceImplTest {
         cartService.deleteByCartCustomerId(5);
     }
 
+    @Test
+    public void getCartByCartId(){
+        cartService.getCartByCartId(4);
+    }
 
 }

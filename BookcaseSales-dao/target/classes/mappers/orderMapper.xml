@@ -23,6 +23,7 @@
         <result property="orderReciver" column="order_reciver"/>
         <result property="orderPhone" column="order_phone"/>
         <result property="orderAddr" column="order_addr"/>
+        <result property="orderMoney" column="order_money"/>
         <result property="orderCreateAt" column="order_create_at"/>
         <result property="orderPayStatus" column="order_pay_status"/>
         <result property="orderLastCreateAt" column="order_last_creat_at"/>
@@ -31,14 +32,14 @@
     </resultMap>
 
     <sql id="commonSelectSql"><!--通用查询sql,orders与order_detail的联合多表查询-->
-       select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status, order_last_create_at,
+       select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr,order_money,order_create_at, order_pay_status, order_last_create_at,
        detail_id, detail_order_id, detail_customer_id, detail_book_name, detail_book_price, detail_book_amount, detail_book_discount, detail_total_money
         from orders o inner join order_detail od on o.order_id = od.detail_order_id
     </sql>
 
     <!--分页获取所有订单-->
     <select id="getAllOrderByPage" resultMap="orderMap">
-        select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status, order_last_create_at,
+        select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr,order_money, order_create_at, order_pay_status, order_last_create_at,
         detail_id, detail_order_id, detail_customer_id, detail_book_name, detail_book_price, detail_book_amount, detail_book_discount, detail_total_money
         from orders o inner join order_detail od on o.order_id = od.detail_order_id
         order by o.order_id
@@ -61,13 +62,13 @@
         </select>
     <!--根据订单编号获取订单信息-->
         <select id="getOrderByOrderSnid" resultType="com.entity.Order">
-            select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status, order_last_create_at from orders
+            select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr,order_money, order_create_at, order_pay_status, order_last_create_at from orders
             where order_snid = #{OrderSnid}
         </select>
     <!--添加订单信息-->
     <insert id="insertOrder" >
-        insert into orders(order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status,order_last_create_at)
-        values(#{OrderSnid},#{OrderCustomerId},#{OrderReciver},#{OrderPhone},#{OrderAddr},#{OrderCreateAt},#{OrderPayStatus},#{OrderLastCreateAt})
+        insert into orders(order_snid, order_customer_id, order_reciver, order_phone, order_addr,order_money, order_create_at, order_pay_status,order_last_create_at)
+        values(#{OrderSnid},#{OrderCustomerId},#{OrderReciver},#{OrderPhone},#{OrderAddr},#{OrderMoney},#{OrderCreateAt},#{OrderPayStatus},#{OrderLastCreateAt})
     </insert>
 
     <!--修改订单状态信息-->
@@ -100,7 +101,7 @@
         set
         order_snid = #{orderSnid},order_customer_id = #{orderCustomerId},
         order_reciver = #{orderReciver},order_phone = #{orderPhone},
-        order_addr = #{orderAddr},order_create_at = #{orderCreateAt},
+        order_addr = #{orderAddr},order_money = #{OrderMoney},order_create_at = #{orderCreateAt},
         order_pay_status = #{orderPayStatus},order_last_create_at = #{OrderLastCreateAt}
         where order_id = #{orderId}
     </update>
@@ -113,7 +114,7 @@
     </select>
 
     <select id="getOneOrderByOrderId" resultType="com.entity.Order">
-        select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr, order_create_at, order_pay_status, order_last_create_at
+        select order_id, order_snid, order_customer_id, order_reciver, order_phone, order_addr,order_money, order_create_at, order_pay_status, order_last_create_at
         from orders
         where order_id = #{orderId}
     </select>

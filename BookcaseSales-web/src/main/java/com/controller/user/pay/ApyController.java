@@ -19,6 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -30,7 +31,6 @@ import java.util.Map;
  * @create: 2019-12-17 11:46
  **/
 @Controller
-@RequestMapping("/pay")
 public class ApyController {
     //private final String APP_ID = "2016101600702344";
     private final String APP_ID = "2016102100731941";
@@ -54,10 +54,11 @@ public class ApyController {
     @Autowired
     private OrderService orderService;
 
-    @RequestMapping("topay")
+    @RequestMapping("/toPay")
     public void alipay(@RequestParam(value = "totalMoney",required = false) String totalMoney,
                        @RequestParam(value = "orderId",required = false) int orderId,
                        HttpServletRequest httpServletRequest,HttpServletResponse httpResponse) throws IOException {
+        orderService.updateOrder(orderId,1,new Date());
         //实例化客户端,填入所需参数
         AlipayClient alipayClient = new DefaultAlipayClient(GATEWAY_URL, APP_ID, APP_PRIVATE_KEY, FORMAT, CHARSET, ALIPAY_PUBLIC_KEY, SIGN_TYPE);
         AlipayTradePagePayRequest request = new AlipayTradePagePayRequest();
@@ -138,9 +139,9 @@ public class ApyController {
             System.out.println("付款金额=" + total_amount);
 
             //支付成功，修复支付状态
-            return "redirect:/pay/success";//跳转付款成功页面
+            return "redirect:/psuccess";//跳转付款成功页面
         } else {
-            return "redirect:/pay/faile";//跳转付款失败页面
+            return "redirect:/pfaile";//跳转付款失败页面
         }
     }
 
@@ -148,16 +149,16 @@ public class ApyController {
      * 支付成功，进行一些订单信息的管理，最后进入成功界面
      * @return
      */
-    @RequestMapping("/success")
+    @RequestMapping("/psuccess")
     public String ok(){
-        return "user/pay/paySuccess";
+        return "user/userIndex";
     }
 
     /**
      * 支付失败，返回失败界面
      * @return
      */
-    @RequestMapping("/faile")
+    @RequestMapping("/pfaile")
     public String no(){
         return "user/pay/payFailed";
     }

@@ -21,12 +21,13 @@
     穷鬼，你的购物车为空，滚一边去。
 </c:if>
 <div>
-    <input type="button" onclick="refreshLocal()" value="☯">
+    <input type="button" onclick="refreshLocal()" value="❤">
 </div>
 <c:if test="${cart != null}">
     <table>
         <tr>
             <td><input type="checkbox" class="cart-check-all"></td>
+            <td>cartID</td>
             <td>用户</td>
             <td>书名</td>
             <td>单价</td>
@@ -37,10 +38,12 @@
         </tr>
         <c:forEach var="cart" items="${cart}">
             <tr>
-                <td><input type="checkbox" data-bookprice="${cart.cartBookAllprice}" data-cartBookDiscount="${cart.cartBookDiscount}"
+                <td><input type="checkbox" data-cartId="${cart.cartId}"
+                           data-bookprice="${cart.cartBookAllprice}" data-cartBookDiscount="${cart.cartBookDiscount}"
                           data-bookcount="${cart.cartBookCount}" data-cartCustomerId="${cart.cartCustomerId}"
                            data-cartBookName="${cart.cartBookName}" data-cartBookSellPrice="${cart.cartBookSellPrice}"
                            class="cart-check"></td>
+                <td>${cart.cartId}</td>
                 <td>${cart.cartCustomerId}</td>
                 <td class="cart-name">${cart.cartBookName}</td>
                 <td class="money" data-cartBookSellPrice="${cart.cartBookSellPrice}">${cart.cartBookSellPrice}</td>
@@ -74,9 +77,8 @@
 
 <script>
 
-    //刷新本窗口
+    //刷新本jsp界面
     function refreshLocal(){
-        alert("刷新本页面");
         window.location.reload();
     }
     //购物车购书数量+1
@@ -140,11 +142,17 @@
             }
         })
     }
-    //计算购物车总价
+    //一进入购物车界面开始计算购物车商品
     function total_load(){
-        var total = 0;
-        $("#total").text(total)
+        var price = 0;
+        $.each($(":checkbox"),function (index,element) {
+            if (element.checked == true){
+                var price = $(this).attr("data-bookprice");
+                $(".allMoney").text(price);
+            }
+        })
     }
+
     //全选
     function checkclick(){
         var count = 0;
@@ -192,27 +200,32 @@
 
     //进入订单结算页面
     function toSettlement(){
-        //获取要购买的商品信息
         $("#settlement").click(function(){
-
-            $.each($(":checkbox"),function (index,element) {
-                if (element.checked == true){//表示所有选中的复选框
-                    var bookName = $(this).attr("data-cartBookName");
-                    console.log("书名：" + bookName );
+            //设置订单金额
+            var totalMoney = 0;
+            $.each($(":checkbox"),function(index,element){
+                if (element.checked == true){
+                    var cartId = $(this).attr("data-cartId");
+                    //获取订单金额
+                    var price = $(this).attr("data-bookprice");
+                    totalMoney += parseInt(price);
+                    //通过cartId和totalMoney进行生成订单和订单细节操作
                     $.ajax({
-                        url:"orderSettlement",
-                        data:{cartBookName:bookName},
-                        type:"POST",
+                        url:"/orderSettlement?cartId=" + cartId + "&totalMoney=" + totalMoney,
+                        method:"POST",
                         success:function () {
-                            //window.location.href = "settlement";
-                            window.location.href = "getOrderDetailByCutomerId";
+                            refreshLocal();
+                            //显示要结算的订单信息
+                            window.location.href = "/getOrderDetailByCutomerId";
                         }
                     })
+
                 }
             })
 
-        });
+        })
     }
+
 
 
     $(function () {
