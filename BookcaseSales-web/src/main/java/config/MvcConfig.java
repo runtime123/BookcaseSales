@@ -7,8 +7,11 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
 import org.springframework.format.datetime.DateFormatter;
+import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+import javax.servlet.*;
 
 /**
  * @author cj
@@ -32,6 +35,7 @@ public class MvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addFormatters(FormatterRegistry registry) {
+        /*添加一个时间格式化器*/
         registry.addFormatter(new DateFormatter("yyyy-MM-dd"));
     }
 
@@ -52,4 +56,6 @@ public class MvcConfig implements WebMvcConfigurer {
                 = registry.addResourceHandler("/static/**");
         registration.addResourceLocations("classpath:/static/");
     }
+
+
 }
