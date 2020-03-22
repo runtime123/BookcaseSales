@@ -1,6 +1,6 @@
 com\dao\CartDao.class
 com\dao\OrderDao.class
+com\dao\CustomerDao.class
 com\dao\BookDao.class
 com\dao\LogAndRegDao.class
-com\dao\UserDao.class
 com\dao\OrderDetailDao.class

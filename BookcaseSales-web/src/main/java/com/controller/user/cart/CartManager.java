@@ -37,16 +37,17 @@ public class CartManager {
 
 
 
-    //如果购物车为空，添加该商品信息
+    //首页-如果购物车为空，添加该商品信息
     @RequestMapping("/getCartAdd")
     @ResponseBody
-    public String getCartAdd(@RequestParam(value = "CartBookName",required = false) String CartBookName,@RequestParam(value = "CartBookSellPrice",required = false)String CartBookSellPrice,@RequestParam(value = "CartBookDiscount",required = false) String CartBookDiscount,HttpServletRequest request){
+    public String getCartAdd(@RequestParam(value = "CartBookName",required = false) String CartBookName,
+                             @RequestParam(value = "CartBookSellPrice",required = false)String CartBookSellPrice,
+                             @RequestParam(value = "CartBookDiscount",required = false) String CartBookDiscount,
+                             HttpServletRequest request){
         String url = "";
 
         Customer customer1 = (Customer) request.getSession().getAttribute("customer1");
 
-        //数量
-        Integer amount = 1;
         //单价
         BigDecimal price = new BigDecimal(CartBookSellPrice);
         //折扣
@@ -99,6 +100,30 @@ public class CartManager {
         return "user/cart";
     }
 
+    /*商品详情-加入购物车*/
+    @RequestMapping("/addCartBybookDetailJsp")
+    public String addCart(@RequestParam(value = "cartBookName",required = false) String cartBookName,
+                          @RequestParam(value = "cartBookSellPrice",required = false) String cartBookSellPrice,
+                          @RequestParam(value = "cartBookCount",required = false) Integer cartBookCount,
+                          @RequestParam(value = "cartBookDiscount",required = false) Integer cartBookDiscount,
+                          @RequestParam(value = "cartBookAllprice",required = false) Integer cartBookAllprice,
+                          HttpServletRequest request){
+       //获取此用户信息
+        Customer customer = (Customer) request.getSession().getAttribute("customer1");
+        BigDecimal bookSellPrice = BigDecimal.valueOf(Long.parseLong(cartBookSellPrice));
+        //总价
+        BigDecimal cartBookAllprices = BigDecimal.valueOf(cartBookAllprice);
+        Cart cart = new Cart(customer.getCustomerId(),cartBookName,bookSellPrice,cartBookCount,cartBookDiscount,cartBookAllprices);
+        System.out.println("要添加的购物车信息：" + cart);
+        List<Cart> ucart = cartService.getCartByCustomerId(customer.getCustomerId());
+        System.out.println(ucart);
+        if (ucart == null){
+            cartService.addCartNull(cart);
+        } else {
+            cartService.updateCountAdd(cartBookCount,cartBookName);
+        }
+        return "user/userIndex";
+    }
 
 
 }

@@ -27,116 +27,7 @@
     <link rel="stylesheet" href="static/css/layui.css" media="all">
     <script src="static/js/layui.all.js"></script>
     <!--<link href="static/css/userIndex.css">-->
-
-    <style type="text/css">
-        * {
-            font-family: 楷体;
-            font-size: 16px;
-        }
-
-        div {
-            margin-bottom: 2px;
-        }
-
-        a:link {
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: none;
-        }
-
-        .biankuang:hover {
-            border: 1px solid #DCDCDC;
-        }
-
-
-        .navbar-default{
-            background-color: white;
-        }
-
-        .maindiv {
-            margin: auto;
-            float: left;
-            width: 1360px;
-            height: 300px;
-
-            position: absolute;
-            left: 3px;
-            right: 3px;
-        }
-        .maindiv_left{
-            background-image: url("static/image/风云榜.jpg");
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            margin: auto;
-            float: left;
-            text-align: left;
-            width: 200px;
-            height: 299px;
-        }
-        .maindiv_center{
-
-            margin: auto;
-            float: left;
-            text-align: center;
-            height: 299px;
-        }
-        .maindiv_right{
-            background-image: url("static/image/云空.jpg");
-            margin: auto;
-            float: left;
-            text-align: center;
-            width: 250px;
-            height: 299px;
-
-        }
-
-        .bottom{
-            position: absolute;
-            margin: auto;
-            float: left;
-            width: 1360px;
-            height: 800px;
-
-            position: absolute;
-
-            top: 410px;
-        }
-
-        #gouwuche:hover {
-            border: 1px solid red;
-        }
-
-        .icon-shopping-cart:hover{
-            border: 1px solid red;
-        }
-        /*轮播相关样式*/
-        #test10{
-            border: 1px dashed red;
-            width: 900px;
-            height: 299px;
-        }
-        .img-carsouel-parent{
-            width: 900px;
-            height: 299px;
-        }
-        .img-carsouel{
-            width: 900px;
-            height: 299px;
-        }
-
-       .t-book-leixign tr td{
-            color: #0000FF;
-            font-size: 20px;
-            text-align: center;
-        }
-
-
-
-
-
-    </style>
+    <link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
 
@@ -203,12 +94,12 @@
             <div class="maindiv_center">
                 <div class="layui-carousel" id="test10">
                     <div carousel-item="" class="img-carsouel-parent">
-                        <div><img class="img-carsouel" src="static/image/l1.jpg"></div>
-                        <div><img class="img-carsouel" src="static/image/l2.jpg"></div>
-                        <div><img class="img-carsouel" src="static/image/l3.jpg"></div>
-                        <div><img class="img-carsouel" src="static/image/l4.jpg"></div>
-                        <div><img class="img-carsouel" src="static/image/l5.jpg"></div>
-                        <div><img class="img-carsouel" src="static/image/l6.jpg"></div>
+                        <div><img class="img-carsouel" src="static/image/l1.jpg" data-bookId="2"></div>
+                        <div><img class="img-carsouel" src="static/image/l2.jpg" data-bookId="2"></div>
+                        <div><img class="img-carsouel" src="static/image/l3.jpg" data-bookId="2"></div>
+                        <div><img class="img-carsouel" src="static/image/l4.jpg" data-bookId="2"></div>
+                        <div><img class="img-carsouel" src="static/image/l5.jpg" data-bookId="2"></div>
+                        <div><img class="img-carsouel" src="static/image/l6.jpg" data-bookId="2"></div>
                         <!--<div><img class="img-carsouel" src="static/image/l7.jpg"></div>-->
                     </div>
                 </div>
@@ -274,7 +165,7 @@
             getBookByType();
         })
     }
-    //搜索框查询,暂时出了故障，只能精确查询不能模糊查询
+
     function selectOne(){
         $(".btn-primary").click(function () {
             var name = $("#inputSearchExample3").val();
@@ -339,7 +230,16 @@
         })
     }
 
+    //前往图书详情界面的同时传商品ID过去
+    function toBookDetail(){
+        $('.img-carsouel').click(function(){
+            var bookId = $(this).attr("data-bookId");
+            window.sessionStorage.bookId = bookId;
+            //前往图书详情界面的路径
+            window.location.href = "/getBookInfoByBookId?bookId="+bookId;
+        });
 
+    }
 
 
 
@@ -349,8 +249,10 @@
         fengyunbang();
         tushuleixing();
         getAllBookByPageList();
-       // addCart();
+        addCart();
         selectOne();
+        toBookDetail();
+        img_click();
     })
 </script>
 

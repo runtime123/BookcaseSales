@@ -22,4 +22,6 @@ public interface BookService {
     List<BookTypeDetail> getBookType();
     //根据图书类型查询图书信息
     List<BookInfo> getBookByDetailTypeName(String DetailTypeName);
+    //通过图书ID查询图书信息
+    BookInfo getBookBybookId(Integer bookId);
 }

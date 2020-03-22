@@ -22,6 +22,6 @@ public interface CartDao {
 
     Cart querySettlementCart(@Param("CartCustomerId") int CartCustomerId,@Param("CartBookName") String CartBookName);
 
-    //
+    /*根据购物车编号查询购物车信息*/
     Cart getCartByCartId(int CartId);
 }

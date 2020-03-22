@@ -63,5 +63,15 @@
         where detail_type_name = #{DetailTypeName}
     </select>
 
+    <!--根据图书Id查询某件商品-->
+    <select id="getBookByBookId" resultType="com.entity.BookInfo">
+        select book_id, detail_id, book_name, book_author,
+       book_publisher, book_publisher_date,
+       book_purchase_price, book_sell_price,
+       book_discount, book_amount, book_sales,
+       book_cover, book_introduce
+        from book
+        where book_id = #{bookId}
+    </select>
 
 </mapper>

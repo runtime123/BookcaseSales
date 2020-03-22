@@ -1,8 +1,7 @@
 D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\impl\BookServiceImpl.java
-D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\impl\UserServiceImpl.java
 D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\OrderService.java
 D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\impl\LogAndRegServiceImpl.java
-D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\UserService.java
+D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\CustomerService.java
 D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\impl\OrderDetailServiceImpl.java
 D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\LogAndRegService.java
 D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\OrderDetailService.java
@@ -10,3 +9,4 @@ D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\Book
 D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\BookService.java
 D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\CartService.java
 D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\impl\OrderServiceImpl.java
+D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-service\src\main\java\com\service\impl\CustomerServiceImpl.java

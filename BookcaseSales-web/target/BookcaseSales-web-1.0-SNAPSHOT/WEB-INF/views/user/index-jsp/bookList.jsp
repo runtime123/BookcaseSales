@@ -11,9 +11,9 @@
 <!--用于主页分页查询图书数据-->
 <c:forEach var="book" items="${bookInfoList.list}">
     <div class="col-md-4 col-sm-6 col-lg-3">
-        <a class="card" href="###">
-            <img src="${book.bookCover}" alt="" style="text-align: center;width: 200px;height: 250px;margin: 0 auto">
-            <div class="caption">图书简介：${book.bookIntroduce}</div>
+        <a class="card" href="/getBookInfoByBookId?bookId=${book.bookId}">
+            <img class="book-cover-image" src="${book.bookCover}" alt="" style="text-align: center;width: 200px;height: 250px;margin: 0 auto" data-bookId="${book.bookId}">
+            <div class="caption" data-bookId="${book.bookId}">图书简介：${book.bookIntroduce}</div>
             <div class="card-heading">
                 <strong>${book.bookName}</strong>
                 <span style="text-align: right; color: gold">作者：${book.bookAuthor}</span>

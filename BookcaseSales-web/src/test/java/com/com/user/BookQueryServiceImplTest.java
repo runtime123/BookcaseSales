@@ -24,4 +24,9 @@ public class BookQueryServiceImplTest {
         }
 
     }
+    @Test
+    public void getBookDetail(){
+        BookInfo book = bookService.getBookBybookId(2);
+        System.out.println(book);
+    }
 }

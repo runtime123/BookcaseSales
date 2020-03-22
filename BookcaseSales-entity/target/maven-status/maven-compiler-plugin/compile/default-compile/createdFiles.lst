@@ -1,5 +1,4 @@
 com\entity\BookInfo.class
-com\entity\UserInfo.class
 com\entity\Cart.class
 com\entity\Order.class
 com\entity\BookTypeDetail.class

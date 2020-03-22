@@ -56,4 +56,9 @@ public class BookServiceImpl implements BookService {
     public List<BookInfo> getBookByDetailTypeName(String DetailTypeName) {
         return bookDao.getBookByDetailTypeName(DetailTypeName);
     }
+
+    @Override
+    public BookInfo getBookBybookId(Integer bookId) {
+        return bookDao.getBookByBookId(bookId);
+    }
 }

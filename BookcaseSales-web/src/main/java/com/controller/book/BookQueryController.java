@@ -10,6 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.awt.print.Book;
 import java.util.List;
 
 @Controller
@@ -22,6 +23,12 @@ public class BookQueryController {
     @RequestMapping("/shouye")
     public String shouye(){
         return "user/userIndex";
+    }
+
+    /*进入图书详情界面*/
+    @RequestMapping("/toBookDetail")
+    public String toBookDetail(){
+        return "book/bookDetail";
     }
 
     //搜索框查询
@@ -73,6 +80,15 @@ public class BookQueryController {
 
         model.addAttribute("getBookByType",bookInfoList);
         return "user/index-jsp/bookTypeSelect";
+    }
+
+    /*根据图书ID获取图书信息*/
+    @RequestMapping("/getBookInfoByBookId")
+    public String getBookInfoByBookId(@RequestParam(value = "bookId") Integer bookId,Model model){
+        BookInfo bookInfo = bookService.getBookBybookId(bookId);
+        System.out.println("--------------" + bookInfo);
+        model.addAttribute("bookInfoById",bookInfo);
+        return "/book/bookDetail";
     }
 
 }

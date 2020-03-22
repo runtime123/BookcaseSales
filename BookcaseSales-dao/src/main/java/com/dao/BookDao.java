@@ -27,5 +27,6 @@ public interface BookDao {
 
     List<BookInfo> getBookByDetailTypeName(String DetailTypeName);
 
+    BookInfo getBookByBookId(Integer bookId);
 
 }

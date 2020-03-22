@@ -12,50 +12,24 @@
     <title>用户登录</title>
     <script src="/static/js/jquery-3.3.1.min.js"></script>
 
-    <style>
-        body{
-            background-image: url("/static/image/云空.jpg");
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            font-family: 楷体;
-            margin: auto;
-        }
-        #denglu{
-            margin: auto;
-            border: 1px solid red;
-            width: 400px;
-            height: 300px;
-            text-align: center;
-            position: relative;
-            top: 100px;
-            background-color: #f1f1f1;
-        }
-
-        input{
-            width: 300px;
-            height: 35px;
-
-        }
-
-        button{
-            width: 60px;
-            height: 30px;
-            background-color: khaki;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="static/css/login.css">
 </head>
 <body>
 <div id="denglu">
-    <h1>登录</h1>
+    <h1 class="title">登录</h1>
     <form id="form">
-        账号：<input type="text" name="customerName" /><br><br>
-        密码：<input type="password" name="customerPwd" maxlength="6"/><br><br><br>
-
+        <div class="ib">
+            账号：<input type="text" name="customerName" />
+        </div>
+        <div class="ib">
+            密码：<input type="password" name="customerPwd" maxlength="6"/>
+        </div>
     </form>
         <button type="button" id="button">登 录</button>
-        <button type="button" onclick="toRegist()" >注册</button>
+    <div class="rg">
+        如果没有注册，请点击 <a href="javascript:;" onclick="toRegist()"><u>注册</u></a>
+    </div>
+        <!--<button type="button" onclick="toRegist()" >注册</button>-->
 </div>
 
 

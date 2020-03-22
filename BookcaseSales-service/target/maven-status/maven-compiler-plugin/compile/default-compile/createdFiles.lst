@@ -1,3 +1,4 @@
+com\service\CustomerService.class
 com\service\impl\OrderDetailServiceImpl.class
 com\service\impl\BookServiceImpl.class
 com\service\impl\OrderServiceImpl.class
@@ -6,7 +7,6 @@ com\service\LogAndRegService.class
 com\service\OrderService.class
 com\service\impl\CartServiceImpl.class
 com\service\impl\LogAndRegServiceImpl.class
-com\service\impl\UserServiceImpl.class
+com\service\impl\CustomerServiceImpl.class
 com\service\OrderDetailService.class
 com\service\BookService.class
-com\service\UserService.class

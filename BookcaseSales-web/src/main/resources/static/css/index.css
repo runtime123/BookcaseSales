@@ -1,0 +1,107 @@
+* {
+    font-family: 楷体;
+    font-size: 16px;
+}
+
+div {
+    margin-bottom: 2px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.biankuang:hover {
+    border: 1px solid #DCDCDC;
+}
+
+
+.navbar-default{
+    background-color: white;
+}
+
+.maindiv {
+    margin: auto;
+    float: left;
+    width: 1360px;
+    height: 300px;
+
+    position: absolute;
+    left: 3px;
+    right: 3px;
+}
+.maindiv_left{
+    background-image: url("static/image/风云榜.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    float: left;
+    text-align: left;
+    width: 200px;
+    height: 299px;
+}
+.maindiv_center{
+
+    margin: auto;
+    float: left;
+    text-align: center;
+    height: 299px;
+}
+.maindiv_right{
+    background-image: url("static/image/云空.jpg");
+    margin: auto;
+    float: left;
+    text-align: center;
+    width: 250px;
+    height: 299px;
+
+}
+
+.bottom{
+    position: absolute;
+    margin: auto;
+    float: left;
+    width: 1360px;
+    height: 800px;
+
+    position: absolute;
+
+    top: 410px;
+}
+
+#gouwuche:hover {
+    border: 1px solid red;
+}
+
+.icon-shopping-cart:hover{
+    border: 1px solid red;
+}
+/*轮播相关样式*/
+#test10{
+    border: 1px dashed red;
+    width: 900px;
+    height: 299px;
+}
+.img-carsouel-parent{
+    width: 900px;
+    height: 299px;
+}
+.img-carsouel{
+    width: 900px;
+    height: 299px;
+}
+
+.t-book-leixign tr td{
+    color: #0000FF;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
