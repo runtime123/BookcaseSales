@@ -11,7 +11,7 @@ import java.util.List;
 
 @Service
 public class CartServiceImpl implements CartService {
-    @Autowired
+    @Autowired//(required = false)
     private CartDao cartDao;
 
     //查询该用户的购物车中的所有信息
@@ -59,6 +59,11 @@ public class CartServiceImpl implements CartService {
     @Override
     public Cart getCartByCartId(int CartId) {
         return cartDao.getCartByCartId(CartId);
+    }
+
+    @Override
+    public List<Cart> getCartByCustomerIdAndCartBookName(int cartCustomerId, String cartBookName) {
+        return cartDao.getCartByCustomerIdAndCartBookName(cartCustomerId, cartBookName);
     }
 
 

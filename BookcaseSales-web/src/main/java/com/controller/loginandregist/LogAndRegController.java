@@ -44,7 +44,6 @@ public class LogAndRegController {
     //重定向，进入用户首页
     @RequestMapping("/userIndex")
     public String userIndex(){
-
         return "redirect:shouye";
     }
 }

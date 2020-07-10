@@ -23,7 +23,7 @@ import javax.servlet.*;
 @ComponentScan("com.controller")
 public class MvcConfig implements WebMvcConfigurer {
 
-
+    /**配置视图解析器(ViewResolver)*/
     @Bean
     public InternalResourceViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
@@ -33,12 +33,14 @@ public class MvcConfig implements WebMvcConfigurer {
 
     }
 
+    /***/
     @Override
     public void addFormatters(FormatterRegistry registry) {
         /*添加一个时间格式化器*/
         registry.addFormatter(new DateFormatter("yyyy-MM-dd"));
     }
 
+    /***/
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         InterceptorRegistration interceptorRegistry = registry.addInterceptor(new LoginInterceptor());
@@ -50,6 +52,7 @@ public class MvcConfig implements WebMvcConfigurer {
         //interceptorRegistry.excludePathPatterns("/userIndex");
     }
 
+    /***/
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         ResourceHandlerRegistration registration

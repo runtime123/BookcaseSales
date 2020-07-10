@@ -38,41 +38,11 @@ $(document).ready(function(){
 		})
 /*------------------------------------------------------------------------------------------------- */
 
-//detail_addCart();
 
-$(function(){
-	detailAddCart();
-})
 
-/*加入购物车*/
-function detailAddCart(){
-	$(".add-cart").click(function () {
-		var cartBookName = document.getElementById("cartBookName").innerText;
-		var cartBookSellPrice = document.getElementById("cartBookSellPrice").innerText;
-		var cartBookCount = document.getElementById("input").value;
-		var cartBookDiscount = document.getElementById("cartBookDiscount").innerText;
-		alert(cartBookName+cartBookSellPrice+cartBookCount+cartBookDiscount)
-		var cartBookAllprice =
-			parseInt(cartBookSellPrice)*parseInt(cartBookCount)*parseInt(cartBookDiscount)/10;
-		alert(cartBookAllprice);
 
-		$.ajax({
-			url:"/addCartBybookDetailJsp",
-			method:"POST",
-			data:{
-				"cartBookName":cartBookName,
-				"cartBookSellPrice":cartBookSellPrice,
-				"cartBookCount":cartBookCount,
-				"cartBookDiscount":cartBookDiscount,
-				"cartBookAllprice":cartBookAllprice
-			},
-			success:function () {
-				alert('添加成功')
-			}
-		})
 
-	});
-}
+
 
 
 

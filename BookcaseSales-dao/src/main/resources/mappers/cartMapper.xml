@@ -57,7 +57,15 @@
 
     <!--根据购物车ID获取购物车信息-->
     <select id="getCartByCartId" resultType="com.entity.Cart">
-        select cart_id,cart_customer_id, cart_book_name, cart_book_sell_price, cart_book_count, cart_book_discount,cart_book_allprice from cart
+        select cart_id,cart_customer_id, cart_book_name, cart_book_sell_price,
+         cart_book_count, cart_book_discount,cart_book_allprice from cart
         where cart_id = #{CartId}
+    </select>
+
+    <!--根据用户编号及图书名称获取购物车相关信息-->
+    <select id="getCartByCustomerIdAndCartBookName" resultType="com.entity.Cart">
+        select cart_id,cart_customer_id, cart_book_name, cart_book_sell_price,
+         cart_book_count, cart_book_discount,cart_book_allprice from cart
+         where cart_customer_id = #{cartCustomerId} and cart_book_name = #{cartBookName}
     </select>
 </mapper>

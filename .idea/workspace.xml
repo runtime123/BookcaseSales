@@ -10,100 +10,252 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f98a3ac-bda9-497a-91f1-acfb3132381d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/study/StudyOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/css/book-detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/mfrl.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/mfrr.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/nivo-preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/plus.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/X10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/X11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/X12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/X13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/X14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/X15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/X17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/X18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/X19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/X20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/ffe7cd57ae3f5ceb377062cb1f8bb0c1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/gouwuche.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/jia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/jian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/shangpinxiangqing/热销.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/slider-left-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/slider-right-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/zhifuye/F05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/image/book-detail/zhifuye/F06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/js/modernizr-custom-v2.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/js/zgq-book-detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/book/bookDetail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/book/TestBookQueryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b32fb581-3c1c-4fe5-9714-cf345f0a5050.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b32fb581-3c1c-4fe5-9714-cf345f0a5050.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/BookDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/CartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/java/com/dao/CartDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/bookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/bookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/cartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/src/main/resources/mappers/cartMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/BookcaseSales-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/BookcaseSales-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/com/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/com/dao/BookDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/mappers/bookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/mappers/bookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/com/dao/CartDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/com/dao/CartDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/mappers/cartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/classes/mappers/cartMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/src/main/java/com/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/src/main/java/com/entity/Cart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/target/BookcaseSales-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/target/BookcaseSales-entity-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/target/classes/com/entity/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/target/classes/com/entity/Cart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/CartService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/LogAndRegServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/LogAndRegServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/src/main/java/com/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/BookcaseSales-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/BookcaseSales-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/CartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/classes/com/service/impl/CartServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/book/BookQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/book/BookQueryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/loginandregist/LogAndRegController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/loginandregist/LogAndRegController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/study/StudyOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/study/StudyOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/user/cart/CartManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/user/cart/CartManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/user/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/user/order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/user/pay/ApyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/com/controller/user/pay/ApyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/user/BookQueryServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/user/BookQueryServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/META-INF/BookcaseSales-web.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/book/BookQueryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/book/BookQueryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/manager/BookManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/manager/BookManagerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/user/cart/CartManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/user/cart/CartManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-entity-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/login_and_regist/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/login_and_regist/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/bookList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/bookList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/userIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/userIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/book/BookQueryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/book/BookQueryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/manager/BookManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/manager/BookManagerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/user/cart/CartManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/user/cart/CartManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/classes/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/META-INF/BookcaseSales-web.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/com/com/user/BookQueryServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/com/com/user/BookQueryServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/java/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/js/zgq-book-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/js/zgq-book-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/manager/CustomerServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/manager/TestCustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/manager/OrderAndDetailServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/manager/TestOrderAndDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/other/LogAndRegTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/other/TestLogAndReg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/user/BookQueryServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/user/TestBookQueryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/user/CartServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/user/TestCartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/com/user/OrderAndDetailServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com/user/TestOrderAndDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/book/BookQueryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/loginandregist/LogAndRegController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/loginandregist/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/loginandregist/RegistController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/manager/BookManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/manager/CustomerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/manager/OrderManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/user/cart/CartManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/user/order/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/interceptor/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/com/util/OrderUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/config/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/config/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/config/SystemConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/wyyzzzk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/zfzdr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/中国风水墨.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/中国风水墨2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/书.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/云空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/亮剑.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/作为意志和表象的世界.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/列宁主义.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/吞噬星空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/国画.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/家风十章.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/庄子.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/庄子2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/建筑背景.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/我是仙凡.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/武动乾坤.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/毛泽东的读书生活.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/盘龙.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/竹阁.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/轮播1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/轮播2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/轮播3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/轮播4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/轮播5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/轮播6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/轮播7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/邓小平时代.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/韦伯与马克思.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/image/龙血战神.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/js/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/js/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/classes/static/js/mycart1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-dao-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-entity-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/BookcaseSales-service-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/commons-dbutils-1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/book/bookManager.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/login_and_regist/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/login_and_regist/ok.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/login_and_regist/regist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/manager/managerIndex.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/manager/user/customerManager.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/manager/user/customerUpdate.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/address.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/cart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/bookList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/bookSelect.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/bookTypeSelect.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/fengyunbang.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/index-jsp/leixing.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/orders.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/pay.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/settlement.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/views/user/userIndex.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/BookcaseSales-web-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/book/BookQueryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/loginandregist/LogAndRegController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/loginandregist/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/loginandregist/RegistController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/manager/BookManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/manager/CustomerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/manager/OrderManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/user/cart/CartManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/controller/user/order/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/interceptor/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/com/util/OrderUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/config/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/config/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/config/SystemConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/wyyzzzk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/zfzdr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/中国风水墨.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/中国风水墨2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/书.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/云空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/亮剑.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/作为意志和表象的世界.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/列宁主义.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/吞噬星空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/国画.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/家风十章.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/庄子.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/庄子2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/建筑背景.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/我是仙凡.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/武动乾坤.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/毛泽东的读书生活.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/盘龙.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/竹阁.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/轮播1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/轮播2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/轮播3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/轮播4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/轮播5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/轮播6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/轮播7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/邓小平时代.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/韦伯与马克思.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/image/龙血战神.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/js/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/js/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/classes/static/js/mycart1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/com/com/manager/CustomerServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/com/com/other/LogAndRegTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/com/com/user/BookQueryServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/com/com/user/CartServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/target/test-classes/com/com/user/OrderAndDetailServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/book/bookDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/book/bookDetail.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/login_and_regist/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/login_and_regist/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/index-jsp/bookList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/index-jsp/bookList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/userIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/BookcaseSales-web/web/WEB-INF/views/user/userIndex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/毕业论文-197370827119-张国乾-基于ssm的书店管理系统——书阁的设计与实现.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文查重简明打印版.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +346,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
-    <property name="MyBatisLogPluginindexNum" value="10134" />
+    <property name="MyBatisLogPluginindexNum" value="992" />
     <property name="MyBatisLogPluginparameters" value="Parameters:" />
     <property name="MyBatisLogPluginpreparing" value="Preparing:" />
     <property name="MyBatisLogPluginrunning" value="true" />
@@ -205,7 +357,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CoffeeScript" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookcaseSales-web/src/main/resources/static/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BookcaseSales-web/src/test/java/com" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -216,7 +368,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -238,18 +391,64 @@
       <recent name="com.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\test\java\com" />
       <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\main\resources\static\css" />
       <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\main\resources\static\js" />
       <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\src\main\resources\static\image\book-detail" />
       <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales" />
-      <recent name="D:\学习资料文件夹\二学年个人项目\TwoYearProject\BookcaseSales\BookcaseSales-web\web\WEB-INF\views\manager" />
     </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/XiHaLongGe/teamwork-mall-test.git" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.21">
+    <configuration name="StudyOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.controller.study.StudyOne" />
+      <module name="BookcaseSales-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBookQueryServiceImpl.getBookBybookId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookcaseSales-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.book" />
+      <option name="MAIN_CLASS_NAME" value="com.book.TestBookQueryServiceImpl" />
+      <option name="METHOD_NAME" value="getBookBybookId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCustomerServiceImpl.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookcaseSales-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.text.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.text.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.text.manager.TestCustomerServiceImpl" />
+      <option name="METHOD_NAME" value="query" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="BookcaseSales-web:war exploded">
@@ -321,6 +520,13 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestBookQueryServiceImpl.getBookBybookId" />
+        <item itemvalue="JUnit.TestCustomerServiceImpl.query" />
+        <item itemvalue="Application.StudyOne" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -332,11 +538,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -438,7 +639,42 @@
       <workItem from="1584705518291" duration="3197000" />
       <workItem from="1584754876706" duration="8536000" />
       <workItem from="1584794168309" duration="5698000" />
-      <workItem from="1584838324082" duration="13513000" />
+      <workItem from="1584838324082" duration="14208000" />
+      <workItem from="1584925030435" duration="583000" />
+      <workItem from="1584938475793" duration="72000" />
+      <workItem from="1585027658834" duration="1739000" />
+      <workItem from="1585226966344" duration="597000" />
+      <workItem from="1585399627437" duration="1187000" />
+      <workItem from="1585450025633" duration="699000" />
+      <workItem from="1585658655144" duration="1249000" />
+      <workItem from="1585744130340" duration="4431000" />
+      <workItem from="1585805255332" duration="389000" />
+      <workItem from="1585831867243" duration="3818000" />
+      <workItem from="1586162512569" duration="6476000" />
+      <workItem from="1586352370574" duration="3284000" />
+      <workItem from="1586410002440" duration="5206000" />
+      <workItem from="1586495631404" duration="13377000" />
+      <workItem from="1586592531449" duration="5772000" />
+      <workItem from="1586850711157" duration="761000" />
+      <workItem from="1586853642626" duration="1241000" />
+      <workItem from="1588240717149" duration="1341000" />
+      <workItem from="1590539879028" duration="12558000" />
+      <workItem from="1590585140462" duration="2894000" />
+      <workItem from="1590720445106" duration="1850000" />
+      <workItem from="1590723268932" duration="1029000" />
+      <workItem from="1590735552920" duration="2650000" />
+      <workItem from="1591153275093" duration="4232000" />
+      <workItem from="1591528035181" duration="26000" />
+      <workItem from="1591534531263" duration="3167000" />
+      <workItem from="1593143467375" duration="564000" />
+      <workItem from="1593517578354" duration="1967000" />
+      <workItem from="1593654218356" duration="86000" />
+      <workItem from="1593742924740" duration="1816000" />
+      <workItem from="1594005290871" duration="3434000" />
+      <workItem from="1594036660331" duration="1477000" />
+      <workItem from="1594084058712" duration="16912000" />
+      <workItem from="1594206561223" duration="7036000" />
+      <workItem from="1594362286636" duration="5291000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1577022462742</created>
@@ -489,7 +725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582964255997</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加了商品详情界面">
+      <created>1584880748168</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584880748168</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,213 +760,110 @@
     <MESSAGE value="2.20号进行的提交" />
     <MESSAGE value="2月24日完成扫码支付与订单结算功能" />
     <MESSAGE value="2月29日完成图书上架功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="2月29日完成图书上架功能" />
+    <MESSAGE value="添加了商品详情界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了商品详情界面" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="244" y="10" width="1008" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584865963342">
+    <state x="244" y="10" width="1008" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586507857222">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="244" y="10" width="1008" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584865963342" />
-    <state x="436" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582079850913">
+    <state x="244" y="10" width="1008" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586507857222" />
+    <state x="447" y="0" width="658" height="728" key="#com.intellij.ide.util.MemberChooser" timestamp="1586508691891">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="436" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1582079850913" />
-    <state x="447" y="0" width="658" height="728" key="#com.intellij.ide.util.MemberChooser" timestamp="1583321955068">
+    <state x="447" y="0" width="658" height="728" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586508691891" />
+    <state x="192" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594108106632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="447" y="0" width="658" height="728" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583321955068" />
-    <state x="363" y="94" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580445038979">
+    <state x="192" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1594108106632" />
+    <state x="422" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594108134775">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="94" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1580445038979" />
-    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581941878717">
+    <state x="422" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1594108134775" />
+    <state x="117" y="0" key="CommitChangelistDialog2" timestamp="1594369258215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581941878717" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1582964247461">
+    <state x="117" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594369258215" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1590737920346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582964247461" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583414620514">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590737920346" />
+    <state width="1055" height="47" key="GridCell.Tab.0.bottom" timestamp="1594279001229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583414620514" />
-    <state width="1055" height="95" key="GridCell.Tab.0.bottom" timestamp="1584879999818">
+    <state width="1055" height="47" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594279001229" />
+    <state width="1055" height="47" key="GridCell.Tab.0.center" timestamp="1594279001228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="95" key="GridCell.Tab.0.center" timestamp="1584879999818">
+    <state width="1055" height="47" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594279001228" />
+    <state width="1055" height="47" key="GridCell.Tab.0.left" timestamp="1594279001228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="95" key="GridCell.Tab.0.left" timestamp="1584879999818">
+    <state width="1055" height="47" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594279001228" />
+    <state width="1055" height="47" key="GridCell.Tab.0.right" timestamp="1594279001228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="95" key="GridCell.Tab.0.right" timestamp="1584879999818">
+    <state width="1055" height="47" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594279001228" />
+    <state width="1055" height="47" key="GridCell.Tab.1.bottom" timestamp="1594279001229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="95" key="GridCell.Tab.1.bottom" timestamp="1584879999818">
+    <state width="1055" height="47" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594279001229" />
+    <state width="1055" height="47" key="GridCell.Tab.1.center" timestamp="1594279001229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="95" key="GridCell.Tab.1.center" timestamp="1584879999818">
+    <state width="1055" height="47" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594279001229" />
+    <state width="1055" height="47" key="GridCell.Tab.1.left" timestamp="1594279001229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="95" key="GridCell.Tab.1.left" timestamp="1584879999818">
+    <state width="1055" height="47" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594279001229" />
+    <state width="1055" height="47" key="GridCell.Tab.1.right" timestamp="1594279001229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="95" key="GridCell.Tab.1.right" timestamp="1584879999818">
+    <state width="1055" height="47" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594279001229" />
+    <state width="1055" height="47" key="GridCell.Tab.2.bottom" timestamp="1594279001229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="355" key="GridCell.Tab.10.bottom" timestamp="1582806888407">
+    <state width="1055" height="47" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594279001229" />
+    <state width="1055" height="47" key="GridCell.Tab.2.center" timestamp="1594279001229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="355" key="GridCell.Tab.10.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582806888407" />
-    <state width="1055" height="355" key="GridCell.Tab.10.center" timestamp="1582806888407">
+    <state width="1055" height="47" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1594279001229" />
+    <state width="1055" height="47" key="GridCell.Tab.2.left" timestamp="1594279001229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="355" key="GridCell.Tab.10.center/0.0.1366.728@0.0.1366.728" timestamp="1582806888407" />
-    <state width="1055" height="355" key="GridCell.Tab.10.left" timestamp="1582806888407">
+    <state width="1055" height="47" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1594279001229" />
+    <state width="1055" height="47" key="GridCell.Tab.2.right" timestamp="1594279001229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="355" key="GridCell.Tab.10.left/0.0.1366.728@0.0.1366.728" timestamp="1582806888407" />
-    <state width="1055" height="355" key="GridCell.Tab.10.right" timestamp="1582806888407">
+    <state width="1055" height="47" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1594279001229" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1593743080647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="355" key="GridCell.Tab.10.right/0.0.1366.728@0.0.1366.728" timestamp="1582806888407" />
-    <state width="1055" height="95" key="GridCell.Tab.2.bottom" timestamp="1584879999818">
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593743080647" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1594368765056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="95" key="GridCell.Tab.2.center" timestamp="1584879999818">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594368765056" />
+    <state x="402" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1586178220311">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="95" key="GridCell.Tab.2.left" timestamp="1584879999818">
+    <state x="402" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1586178220311" />
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1594206562990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="95" key="GridCell.Tab.2.right" timestamp="1584879999818">
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1594206562990" />
+    <state x="454" y="82" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594108232946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="95" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1584879999818" />
-    <state width="1055" height="275" key="GridCell.Tab.3.bottom" timestamp="1584878544498">
+    <state x="454" y="82" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1594108232946" />
+    <state x="57" y="0" key="new project wizard" timestamp="1590735736654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="275" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584878544498" />
-    <state width="1055" height="275" key="GridCell.Tab.3.center" timestamp="1584878544498">
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590735736654" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594194457286">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1055" height="275" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1584878544498" />
-    <state width="1055" height="275" key="GridCell.Tab.3.left" timestamp="1584878544498">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="275" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1584878544498" />
-    <state width="1055" height="275" key="GridCell.Tab.3.right" timestamp="1584878544498">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="275" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1584878544498" />
-    <state width="1055" height="221" key="GridCell.Tab.7.bottom" timestamp="1579572147019">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="221" key="GridCell.Tab.7.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579572147019" />
-    <state width="1055" height="221" key="GridCell.Tab.7.center" timestamp="1579572147019">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="221" key="GridCell.Tab.7.center/0.0.1366.728@0.0.1366.728" timestamp="1579572147019" />
-    <state width="1055" height="221" key="GridCell.Tab.7.left" timestamp="1579572147019">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="221" key="GridCell.Tab.7.left/0.0.1366.728@0.0.1366.728" timestamp="1579572147019" />
-    <state width="1055" height="221" key="GridCell.Tab.7.right" timestamp="1579572147019">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="221" key="GridCell.Tab.7.right/0.0.1366.728@0.0.1366.728" timestamp="1579572147019" />
-    <state width="1055" height="353" key="GridCell.Tab.8.bottom" timestamp="1579570303861">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="353" key="GridCell.Tab.8.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579570303861" />
-    <state width="1055" height="353" key="GridCell.Tab.8.center" timestamp="1579570303861">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="353" key="GridCell.Tab.8.center/0.0.1366.728@0.0.1366.728" timestamp="1579570303861" />
-    <state width="1055" height="353" key="GridCell.Tab.8.left" timestamp="1579570303861">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="353" key="GridCell.Tab.8.left/0.0.1366.728@0.0.1366.728" timestamp="1579570303861" />
-    <state width="1055" height="353" key="GridCell.Tab.8.right" timestamp="1579570303861">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="353" key="GridCell.Tab.8.right/0.0.1366.728@0.0.1366.728" timestamp="1579570303861" />
-    <state width="1055" height="168" key="GridCell.Tab.9.bottom" timestamp="1584856852155">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="168" key="GridCell.Tab.9.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584856852155" />
-    <state width="1055" height="168" key="GridCell.Tab.9.center" timestamp="1584856852154">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="168" key="GridCell.Tab.9.center/0.0.1366.728@0.0.1366.728" timestamp="1584856852154" />
-    <state width="1055" height="168" key="GridCell.Tab.9.left" timestamp="1584856852154">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="168" key="GridCell.Tab.9.left/0.0.1366.728@0.0.1366.728" timestamp="1584856852154" />
-    <state width="1055" height="168" key="GridCell.Tab.9.right" timestamp="1584856852154">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1055" height="168" key="GridCell.Tab.9.right/0.0.1366.728@0.0.1366.728" timestamp="1584856852154" />
-    <state x="129" y="61" key="MergeDialog" timestamp="1580445766859">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="129" y="61" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1580445766859" />
-    <state x="392" y="81" key="MultipleFileMergeDialog" timestamp="1580445777712">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="392" y="81" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1580445777712" />
-    <state x="270" y="89" key="RollbackChangesDialog" timestamp="1583457386176">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="270" y="89" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583457386176" />
-    <state x="186" y="9" key="SettingsEditor" timestamp="1582959849628">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582959849628" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1582964258826">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582964258826" />
-    <state x="402" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1582962064574">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="402" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1582962064574" />
-    <state x="518" y="58" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1582336093382">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="518" y="58" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.728@0.0.1366.728" timestamp="1582336093382" />
-    <state x="375" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1584838325425">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="375" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584838325425" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582079129674">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1582079129674" />
-    <state x="57" y="0" key="new project wizard" timestamp="1582287186844">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1582287186844" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1581833415630">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581833415630" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584584873084">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584584873084" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1594194457286" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

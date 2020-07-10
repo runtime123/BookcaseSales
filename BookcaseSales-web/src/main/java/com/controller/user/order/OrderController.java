@@ -57,18 +57,16 @@ public class OrderController {
     进入订单结算界面,此时生成一条未结算的订单并显示在结算界面
      *还生成一条订单结算信息
      */
-
     @RequestMapping("/orderSettlement")
     public String orderSettlement(@RequestParam(value = "cartId",required = false) int cartId,
                                   @RequestParam(value = "totalMoney",required = false) BigDecimal totalMoney,
                                   HttpServletRequest request, Model model){
-        System.out.println("===============" + cartId + totalMoney);//要购买的书籍信息
+        System.out.println("===============" + cartId + totalMoney);
         //1、生成一个未支付的订单，及相关订单细节
         //1.1、获取用户信息
         Customer customer = (Customer) request.getSession().getAttribute("customer1");
         //获取要结算的购物车信息，根据用户编号及商品名称
        Cart cart = cartService.getCartByCartId(cartId);
-
         /**
          * 添加一条订单信息，收货者信息默认为当前登录的用户
          */
@@ -77,12 +75,11 @@ public class OrderController {
          * 生成订单对象
          */
         Order order1 = new Order(orderSnid,customer.getCustomerId(),customer.getCustomerName(),customer.getCustomerPhone(),customer.getCustomerAddress(),totalMoney,new Date(),0,null);
-        orderService.insertOrder(order1);//生成一条订单
+        orderService.insertOrder(order1);
         //添加一条订单细节信息
         Order order2 = orderService.getOrderByOrderSnid(orderSnid);
         OrderDetail orderDetail = new OrderDetail(order2.getOrderId(),cart.getCartCustomerId(),cart.getCartBookName(),cart.getCartBookSellPrice(),cart.getCartBookCount(),cart.getCartBookDiscount(),totalMoney);
-        orderDetailService.insertOrderDetail(orderDetail);//生成一条订单细节信息
-
+        orderDetailService.insertOrderDetail(orderDetail);
         //生成订单后删除购物车中的这条商品信息
         cartService.deleteOne(cart.getCartCustomerId(),cart.getCartBookName());
         return "user/settlement";

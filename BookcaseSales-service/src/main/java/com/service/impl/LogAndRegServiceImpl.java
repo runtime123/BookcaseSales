@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class LogAndRegServiceImpl implements LogAndRegService {
 
-    @Autowired
+    @Autowired//(required = false)
     private LogAndRegDao logAndRegDao;
 
     @Override

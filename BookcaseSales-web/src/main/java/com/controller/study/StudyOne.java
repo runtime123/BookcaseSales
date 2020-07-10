@@ -11,10 +11,10 @@ import java.util.Scanner;
  */
 public class StudyOne {
     public static void main(String[] args) {
-        //getMin();
-        //getsanjiaoxing();
-        //getpaixu2();
-        paixu();
+        //getMin();//获取最小值
+        //getsanjiaoxing();//打印三角形
+
+        getZuhePailie();//排列组合一共有多少种可能
     }
 
     //1、编写一个程序,从4个整数中找出最小的数,并显示此数。
@@ -71,6 +71,25 @@ public class StudyOne {
         for(int i=0;i<str.length;i++) {
             System.out.print(str[i]+",");
         }
+
+    }
+
+
+    //排序,组合一共有多少可能
+    public static void getZuhePailie(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("请输入要排列的数的个数：");
+        int num = scanner.nextInt();
+        int sum = 1;
+        for(int i = 1;i<=num;i++){
+            sum *= i;
+        }
+        System.out.println("一共有" + sum + "种排列可能。");
+    }
+
+    //将所有排列的可能显示出来
+    public static void getAllPailie(){
+
 
     }
 }

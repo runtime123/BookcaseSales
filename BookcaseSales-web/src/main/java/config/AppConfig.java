@@ -31,9 +31,10 @@ import java.util.Properties;
 @ComponentScan("com.service")
 @MapperScan("com.dao")
 @PropertySource("classpath:db.properties")
-@EnableTransactionManagement
+@EnableTransactionManagement//开启事务支持
 public class AppConfig {
 
+    /**占位符注入*/
     @Value("${jdbc.username}")
     private String username;
 
@@ -43,6 +44,7 @@ public class AppConfig {
     @Value("${jdbc.password}")
     private String password;
 
+    /**配置数据源*/
     @Bean
     public  DataSource dataSource(){
         DruidDataSource druidDataSource = new DruidDataSource();
@@ -51,6 +53,9 @@ public class AppConfig {
         druidDataSource.setUrl(url);
         return  druidDataSource;
     }
+
+
+    /**配置SqlSessionFactory*/
     @Bean
     public SqlSessionFactory sqlSessionFactory() throws Exception {
         SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
@@ -70,6 +75,8 @@ public class AppConfig {
         configuration.setMapUnderscoreToCamelCase(true);
         return configuration;
     }
+
+    /**分页*/
     private PageInterceptor pageInterceptor(){
         PageInterceptor pageInterceptor = new PageInterceptor();
 
@@ -80,8 +87,7 @@ public class AppConfig {
         return  pageInterceptor;
     }
 
-    //事务
-    /*
+    /**事务
     @Bean
     public PlatformTransactionManager transactionManager(){
         DataSourceTransactionManager transactionManager = new DataSourceTransactionManager();

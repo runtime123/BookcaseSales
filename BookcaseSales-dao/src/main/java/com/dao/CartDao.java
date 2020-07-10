@@ -24,4 +24,6 @@ public interface CartDao {
 
     /*根据购物车编号查询购物车信息*/
     Cart getCartByCartId(int CartId);
+
+    List<Cart> getCartByCustomerIdAndCartBookName(@Param("cartCustomerId") int cartCustomerId,@Param("cartBookName") String cartBookName);
 }

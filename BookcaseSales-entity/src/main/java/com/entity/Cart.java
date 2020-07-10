@@ -1,10 +1,17 @@
 package com.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import java.math.BigDecimal;
 
+
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class Cart {
 
     private Integer CartId;
@@ -22,17 +29,9 @@ public class Cart {
     private BigDecimal CartBookAllprice;
 
 
-    public Cart() {
-    }
 
     public Cart(Integer cartId, BigDecimal cartBookAllprice) {
         CartId = cartId;
-        CartBookAllprice = cartBookAllprice;
-    }
-
-    public Cart(Integer cartId, Integer cartBookCount, BigDecimal cartBookAllprice) {
-        CartId = cartId;
-        CartBookCount = cartBookCount;
         CartBookAllprice = cartBookAllprice;
     }
 
@@ -44,14 +43,11 @@ public class Cart {
         CartBookDiscount = cartBookDiscount;
         CartBookAllprice = cartBookAllprice;
     }
-
-    public Cart(Integer cartId, Integer cartCustomerId, String cartBookName, BigDecimal cartBookSellPrice, Integer cartBookCount, Integer cartBookDiscount, BigDecimal cartBookAllprice) {
+    public Cart(Integer cartId, Integer cartBookCount, BigDecimal cartBookAllprice) {
         CartId = cartId;
-        CartCustomerId = cartCustomerId;
-        CartBookName = cartBookName;
-        CartBookSellPrice = cartBookSellPrice;
         CartBookCount = cartBookCount;
-        CartBookDiscount = cartBookDiscount;
         CartBookAllprice = cartBookAllprice;
     }
+
+
 }

@@ -24,4 +24,5 @@ public interface CartService {
 
     Cart getCartByCartId(int CartId);
 
+    List<Cart> getCartByCustomerIdAndCartBookName(int cartCustomerId,String cartBookName);
 }

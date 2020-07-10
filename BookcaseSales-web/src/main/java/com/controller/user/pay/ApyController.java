@@ -50,7 +50,6 @@ public class ApyController {
     //支付宝同步通知路径,也就是当付款完毕后跳转本项目的页面,可以不是公网地址
     private final String RETURN_URL = "http://localhost:8080/returnUrl";
 
-
     @Autowired
     private OrderService orderService;
 
@@ -112,15 +111,13 @@ public class ApyController {
             for (int i = 0; i < values.length; i++) {
                 valueStr = (i == values.length - 1) ? valueStr + values[i] : valueStr + values[i] + ",";
             }
-            // 乱码解决，这段代码在出现乱码时使用
-/*
-            valueStr = new String(valueStr.getBytes("utf-8"), "utf-8");
-*/
+            //乱码解决，这段代码在出现乱码时使用
+            /**valueStr = new String(valueStr.getBytes("utf-8"), "utf-8");*/
             valueStr = new String(valueStr.getBytes("ISO-8859-1"), "utf-8");
             params.put(name, valueStr);
         }
 
-        System.out.println(params);//查看参数都有哪些
+        System.out.println(params);/*查看参数都有哪些*/
        boolean signVerified = AlipaySignature.rsaCheckV1(params, ALIPAY_PUBLIC_KEY, CHARSET, SIGN_TYPE); // 调用SDK验证签名
 //验证签名通过
         System.out.println("signVerified = " + signVerified);
@@ -139,9 +136,9 @@ public class ApyController {
             System.out.println("付款金额=" + total_amount);
 
             //支付成功，修复支付状态
-            return "redirect:/psuccess";//跳转付款成功页面
+            return "redirect:/pfaile";//跳转付款成功页面
         } else {
-            return "redirect:/pfaile";//跳转付款失败页面
+            return "redirect:/psuccess";//跳转付款失败页面
         }
     }
 

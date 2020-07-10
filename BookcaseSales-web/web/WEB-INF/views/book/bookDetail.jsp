@@ -61,7 +61,7 @@
             </div>
             <br><br>
                 <div class="Xcontent34">
-                    <a href="javascript:;" ><img src="static/image/book-detail/shangpinxiangqing/X17.png"></a>
+                    <a onclick="buyNow()"><img class="buy-now" src="static/image/book-detail/shangpinxiangqing/X17.png"></a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a class="add-cart"><img src="static/image/book-detail/shangpinxiangqing/X18.png"></a>
                 </div>
@@ -78,7 +78,46 @@
 
 
 <script>
+    $(function () {
+        detailAddCart();//加入购物车
+       // buyNow();//立即购买
+    })
 
+
+
+    /*加入购物车*/
+    function detailAddCart(){
+        $(".add-cart").click(function () {
+            var cartBookName = document.getElementById("cartBookName").innerText;
+            var cartBookSellPrice = document.getElementById("cartBookSellPrice").innerText;
+            var cartBookCount = document.getElementById("input").value;
+            var cartBookDiscount = document.getElementById("cartBookDiscount").innerText;
+            var cartBookAllprice = parseInt(cartBookSellPrice)*parseInt(cartBookCount)*parseInt(cartBookDiscount)/10;
+
+            $.ajax({
+                url:"/addCartBybookDetailJsp",
+                method:"POST",
+                data:{
+                    "cartBookName":cartBookName,
+                    "cartBookSellPrice":cartBookSellPrice,
+                    "cartBookCount":cartBookCount,
+                    "cartBookDiscount":cartBookDiscount,
+                    "cartBookAllprice":cartBookAllprice
+                },
+                success:function (res) {
+                    alert('添加成功')
+                    window.location.href = "userIndex";
+                }
+            })
+
+        });
+    }
+
+    /*立即购买*/
+    function buyNow(){
+        alert("你点击了立即购买按键！")
+
+    }
 </script>
 </body>
 </html>

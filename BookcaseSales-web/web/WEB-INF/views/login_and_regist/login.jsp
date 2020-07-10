@@ -14,15 +14,15 @@
 
     <link rel="stylesheet" href="static/css/login.css">
 </head>
-<body>
+<body id="body">
 <div id="denglu">
     <h1 class="title">登录</h1>
     <form id="form">
         <div class="ib">
-            账号：<input type="text" name="customerName" />
+            账号：<input type="text" name="customerName" autocomplete="off" />
         </div>
         <div class="ib">
-            密码：<input type="password" name="customerPwd" maxlength="6"/>
+            密码：<input type="password" name="customerPwd" maxlength="6" autocomplete="off"/>
         </div>
     </form>
         <button type="button" id="button">登 录</button>
@@ -34,6 +34,13 @@
 
 
 <script>
+
+    //给button按钮添加Enter回车键
+    $("#body").keydown(function () {
+        if (event.keyCode == 13){
+            $("#button").click();
+        }
+    })
 
 
     function toRegist(){
@@ -54,15 +61,16 @@
             dateType:"json",
             contentType:"application/json;charset=utf-8",
             success:function (data) {
-                alert("登陆成功");
-                alert(data)
+
                 if (data == "manager"){
+                    alert("管理员登陆成功！！！");
                     //管理员登陆成功进入管理员首页
                     window.location.href = "managerIndex"
                 }else if (data == "customer"){
                     /*用户登录成功进入用户首页
                     注释：这里不能用user这个关键词，否则会影响这个功能
                      */
+                    alert("用户登录成功！")
                     window.location.href = "userIndex";
                 } else {
                     alert("用户名或密码错误")

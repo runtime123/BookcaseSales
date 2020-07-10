@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public class CustomerServiceImpl implements CustomerService {
 
-    @Autowired//自动注入customerDao
+    @Autowired//(required = false)//自动注入customerDao
     private CustomerDao customerDao;
 
     @Override

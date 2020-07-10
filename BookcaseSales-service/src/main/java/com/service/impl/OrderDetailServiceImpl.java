@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public class OrderDetailServiceImpl implements OrderDetailService {
 
-    @Autowired
+    @Autowired//(required = false)
     private OrderDetailDao orderDetailDao;
 
     @Override

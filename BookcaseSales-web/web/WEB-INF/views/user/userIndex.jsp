@@ -59,7 +59,7 @@
                 <li><a href="/orderList">我的订单</a></li>
                 <li><a id="displaycart" href="/getCart">购物车</a></li>
                 <li><a >联系客服</a></li>
-                <!--<li><a >系统通知</a></li>-->
+                <li><a >系统通知</a></li>
             </ul>
         </nav>
     </div>
